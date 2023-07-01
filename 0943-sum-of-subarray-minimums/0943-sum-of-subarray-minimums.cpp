@@ -28,10 +28,10 @@ public:
             s2.push({arr[i],cnt});
             nextSmaller[i] = cnt;
         } 
-        long res = 0;
+        long long res = 0;
         long mod = 1e9+7;
         for (int i=0; i<n; i++){
-            res=(res+(long)arr[i]*nextSmaller[i]*prevSmaller[i])%mod;
+            res=(res+(long long)arr[i]*nextSmaller[i]*prevSmaller[i])%mod;
         }
         return res;
 
