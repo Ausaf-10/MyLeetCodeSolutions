@@ -1,28 +1,21 @@
 class Solution {
 public:
-    int trap(vector<int>& height) {
-        int n = height.size();
-        vector<int> prefix(n),suffix(n);
-        int sum=0;
-        //FOR CALCULATING THE PREFIX HEIGHT
-        int maxPrefix = INT_MIN;
-        for (int i=0; i<n; i++){
-            maxPrefix = max(height[i],maxPrefix);
-            prefix[i] = maxPrefix;
+    int trap(vector<int>& arr) {
+        int ans =0 ;
+        int l = 0, r = arr.size() - 1;
+        int leftMax = 0, rightMax = 0;
+        while (l <= r){
+            if (arr[l]<=arr[r]){
+                if (arr[l] >= leftMax) leftMax = arr[l];
+                else ans+= leftMax - arr[l];
+                l++;
+            }
+            else{
+                if (arr[r] >= rightMax) rightMax = arr[r];
+                else ans+= rightMax - arr[r] ;
+                r--;
+            }
         }
-
-        //FOR CALCULATING THE SUFFIX HEIGHT
-        int maxSuffix = INT_MIN;
-        for (int i=n-1; i>=0; i--){
-            maxSuffix = max(height[i],maxSuffix);
-            suffix[i] = maxSuffix;
-        }
-
-        for (int i=0; i<n; i++){
-            sum+= min(prefix[i],suffix[i]) - height[i];
-        }
-
-        return sum;
-        
+        return ans;
     }
 };
