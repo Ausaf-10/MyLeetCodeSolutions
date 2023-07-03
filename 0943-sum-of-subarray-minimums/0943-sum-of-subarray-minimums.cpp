@@ -31,7 +31,8 @@ public:
         long long res = 0;
         long mod = 1e9+7;
         for (int i=0; i<n; i++){
-            res=(res+(long long)arr[i]*nextSmaller[i]*prevSmaller[i])%mod;
+            // res=(res+(long long)arr[i]*nextSmaller[i]*prevSmaller[i])%mod;
+            res = (res + arr[i]*1LL*nextSmaller[i]*prevSmaller[i])%mod; 
         }
         return res;
 
