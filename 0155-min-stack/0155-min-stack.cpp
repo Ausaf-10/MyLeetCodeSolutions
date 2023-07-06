@@ -30,14 +30,14 @@ public:
     }
     
     int top() {
-        if (stk.top() >= mini) return stk.top();
+        if (stk.top() >= mini) return (int)stk.top();
         else{
-            return mini;
+            return (int)mini;
         }
     }
     
     int getMin() {
-        return mini;
+        return (int)mini;
     }
 };
 
