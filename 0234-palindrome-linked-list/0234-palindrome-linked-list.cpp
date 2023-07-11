@@ -17,8 +17,8 @@ public:
         while (fast!=NULL && fast->next!=NULL){
             prev = slow, slow=slow->next , fast=fast->next->next;
         }
-        if (fast == NULL ) return prev;
-        else return slow;
+        if (fast == NULL ) return prev; // EVEN LINKED LIST
+        else return slow; // ODDD 
     }
 
     ListNode* reverseList(ListNode* head){
