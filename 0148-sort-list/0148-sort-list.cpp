@@ -25,33 +25,27 @@ public:
         return slow; // IF ODD NODES
     }
 
-    ListNode* merge(ListNode* left,ListNode* right){
+    ListNode* merge(ListNode* l1,ListNode* l2){
         
-        if (left == NULL) return right;
-        if (right == NULL) return left;
+        if (l1 == NULL) return l2;
+        if (l2 == NULL) return l1;
         
-        ListNode* dummy = new ListNode(-1);
-        ListNode* temp = dummy;
+        if (l1->val > l2->val) swap(l1,l2); // Making the smaller nodes as l1
+        
+        ListNode* res = l1;
+        
 
-        while (left!=NULL && right!=NULL){
-            if (left->val <= right->val){
-                temp->next = left;
-                temp = temp->next;
-                left = left->next; 
+        while (l1!=NULL && l2!=NULL){
+            ListNode* temp = NULL;
+            while (l1!=NULL && l1->val <= l2->val){
+                temp = l1;
+                l1= l1->next;
             }
-            else{
-                temp->next = right;
-                temp = temp->next;
-                right = right->next; 
-            }
+            temp->next = l2;
+            swap(l1,l2);
         }
 
-        if (left == NULL){
-            temp->next = right;
-        }
-        if (right == NULL) temp->next = left;
-
-        return dummy->next;
+        return res;
     }
 
     ListNode* mergeSort(ListNode* head){
