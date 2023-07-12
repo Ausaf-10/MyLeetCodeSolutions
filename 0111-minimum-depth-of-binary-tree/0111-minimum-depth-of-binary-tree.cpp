@@ -13,9 +13,9 @@ class Solution {
 public:
     int Height(TreeNode *root){
         if (root == NULL) return 0;
-        int lh = Height(root->left);
-        int rh = Height(root->right);
-        if (lh !=0 && rh == 0) return lh+1;   
+        int lh = Height(root->left); // FIND THE LEFT HEIGHT
+        int rh = Height(root->right); // FIND THE RIGHT HEIGHT
+        if (lh !=0 && rh == 0) return lh+1;  // IF RIGHT IS 0 THEN DONT THEN ADD THE ONE WHICH IS NOT 0
         if (lh ==0 && rh != 0) return rh+1;   
         return 1 + min(lh,rh);
 
