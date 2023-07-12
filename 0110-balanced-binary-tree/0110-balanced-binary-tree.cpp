@@ -13,20 +13,16 @@ class Solution {
 public:
     int maxDepth(TreeNode* root){
         if (root == NULL) return 0;
-        return 1 + max(maxDepth(root->left),maxDepth(root->right));
+        int lh = maxDepth(root->left);
+        int rh = maxDepth(root->right);
+        if (lh == -1 || rh == -1) return -1;
+        if (abs(lh-rh) > 1) return -1;
+        return max(lh,rh) + 1;
     }
     bool isBalanced(TreeNode* root) {
         if (root == NULL) return true;
-
-        int lh = maxDepth(root->left);
-        int rh = maxDepth(root->right);
-
-        if (abs(lh-rh) > 1) return false;
-
-        bool lt = isBalanced(root->left);
-        bool rt = isBalanced(root->right);
-
-        if (lt == false || rt == false) return false;
+        
+        if (maxDepth(root) == -1) return false;
 
         return true;
     }
