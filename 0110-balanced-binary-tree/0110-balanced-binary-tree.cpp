@@ -17,13 +17,11 @@ public:
         int rh = maxDepth(root->right);
         if (lh == -1 || rh == -1) return -1;
         if (abs(lh-rh) > 1) return -1;
-        return max(lh,rh) + 1;
+        return 1 + max(lh,rh);
     }
     bool isBalanced(TreeNode* root) {
         if (root == NULL) return true;
-        
-        if (maxDepth(root) == -1) return false;
-
+        if (maxDepth(root) == - 1) return false;
         return true;
     }
 };
