@@ -6,30 +6,34 @@ using namespace std;
 class Solution {
   public:
     // Function to detect cycle in a directed graph.
-    bool dfs(vector<int> adj[], int node, vector<int>& vis, vector<int>& pathVis){
-        vis[node] = 1 , pathVis[node] = 1;
-        
-        for (auto neighbour : adj[node]){
-            if (!vis[neighbour]) {
-                if (dfs(adj,neighbour,vis,pathVis)) return true;
-            }
-            else if (pathVis[neighbour] == 1) return true;
-        }
-        
-        pathVis[node] = 0;
-        return false;
-    }
-    
     bool isCyclic(int V, vector<int> adj[]) {
         // code here
-        vector<int> vis(V,0);
-        vector<int> pathVis(V,0);
         
+        int indegree[V] = {0};
         for (int i=0; i<V; i++){
-            if (!vis[i]){
-                if (dfs(adj,i,vis,pathVis)) return true;
+            for (auto neighbor : adj[i]){
+                indegree[neighbor]++;
             }
         }
+        
+        queue<int> q;
+        for (int i=0; i<V; i++){
+            if (indegree[i] == 0) q.push(i);
+        }
+        
+        vector<int> topo;
+        while (!q.empty()){
+            int node = q.front();
+            topo.push_back(node);
+            q.pop();
+            
+            for (auto it : adj[node]){
+                indegree[it]--;
+                if (indegree[it] == 0) q.push(it);
+            }
+        }
+        
+        if (q.empty() && topo.size()!=V) return true;
         
         return false;
     }
