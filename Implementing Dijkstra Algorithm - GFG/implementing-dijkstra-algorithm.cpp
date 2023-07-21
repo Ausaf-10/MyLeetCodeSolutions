@@ -4,11 +4,13 @@ using namespace std;
 
 // } Driver Code Ends
 
-// class compare{
-//     bool operator()(pair<int,int>& a, pair<int,int>& b){
-//         return (a.first > b.first );
-//     }      
-// };
+#include <bits/stdc++.h>
+class compare{
+    public:
+        bool operator()(const pair<int,int>& a,const pair<int,int>& b){
+            return (a.first > b.first );
+        }      
+};
 class Solution{
 	public:
 	//Function to find the shortest distance of all the vertices
@@ -19,7 +21,7 @@ class Solution{
         vector<int> dist(V);
         for (int i=0; i<V; i++) dist[i] = 1e9;
         dist[src] = 0;
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> minHeap;
+        priority_queue<pair<int,int>, vector<pair<int,int>>, compare> minHeap;
         minHeap.push({0,src});
         
         while (!minHeap.empty()){
