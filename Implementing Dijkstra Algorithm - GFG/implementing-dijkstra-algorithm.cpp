@@ -5,12 +5,12 @@ using namespace std;
 // } Driver Code Ends
 
 #include <bits/stdc++.h>
-class compare{
-    public:
-        bool operator()(const pair<int,int>& a,const pair<int,int>& b){
-            return (a.first > b.first );
-        }      
-};
+// class compare{
+//     public:
+//         bool operator()(const pair<int,int>& a,const pair<int,int>& b){
+//             return (a.first > b.first );
+//         }      
+// };
 class Solution{
 	public:
 	//Function to find the shortest distance of all the vertices
@@ -21,21 +21,29 @@ class Solution{
         vector<int> dist(V);
         for (int i=0; i<V; i++) dist[i] = 1e9;
         dist[src] = 0;
-        priority_queue<pair<int,int>, vector<pair<int,int>>, compare> minHeap;
-        minHeap.push({0,src});
+       
+        // priority_queue<pair<int,int>, vector<pair<int,int>>, compare> minHeap;
+        // minHeap.push({0,src});
         
-        while (!minHeap.empty()){
-            int distance = minHeap.top().first;
-            int node = minHeap.top().second;
-            minHeap.pop();
+        set<pair<int,int>> st;
+        st.insert({0,src});
+        
+        while (!st.empty()){
+            auto it = *(st.begin());
+            int node = it.second;
+            int distance = it.first;
+            st.erase(it);
             
             for (auto v : adj[node]){
                 int neighbor = v[0];
                 int wt = v[1];
                 
+                
                 if (dist[neighbor] > distance + wt){
-                     dist[neighbor] = distance + wt; 
-                     minHeap.push({dist[neighbor],neighbor});
+                    if (dist[neighbor]!=1e9) st.erase({dist[neighbor],neighbor});
+                    
+                    dist[neighbor] = distance + wt; 
+                    st.insert({dist[neighbor],neighbor});
                 }
                 
             }
