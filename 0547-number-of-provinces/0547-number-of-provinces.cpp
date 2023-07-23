@@ -42,11 +42,11 @@ public:
             }
         }
         int cnt = 0 ;
-        // for (int i=0; i<V; i++){
-        //     ds.parent[i] = ds.findUltimateParent(i);
-        // }
         for (int i=0; i<V; i++){
-            if (ds.findUltimateParent(i) == i) cnt++;
+            int x = ds.findUltimateParent(i);
+        }
+        for (int i=0; i<V; i++){
+            if (ds.parent[i] == i) cnt++;
         }
         
         return cnt;
