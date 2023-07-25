@@ -8,34 +8,62 @@ using namespace std;
 // User function Template for C++
 
 class Solution{
-    private:
+    public:
+        void dfs(int node, vector<int> adj[], vector<int>& vis, stack<int>& stk){
+            vis[node] = 1;
+            for (auto adjNode : adj[node]){
+                if (!vis[adjNode]){
+                    dfs(adjNode,adj,vis,stk);
+                }
+            }
+            stk.push(node);
+            return ;
+        }
         vector<int> topoSort(int V, vector<int> adj[]) {
-	    // code here
-	    int indegree[V]={0};
-	    for (int i=0; i<V; i++){
-	        for (auto it : adj[i]){
-	            indegree[it]++;
-	        }
-	    }
+            stack<int> stk;
+            vector<int> vis(V,0);
+            for (int i=0; i<V; i++){
+                if (!vis[i])
+                    dfs(i,adj,vis,stk);
+            }
+            
+            vector<int> order;
+            while (!stk.empty()){
+                order.push_back(stk.top());
+                stk.pop();
+            }
+            
+            return order;
+            
+            
+            
+            
+            
+	   // int indegree[V]={0};
+	   // for (int i=0; i<V; i++){
+	   //     for (auto it : adj[i]){
+	   //         indegree[it]++;
+	   //     }
+	   // }
 	    
-	    queue<int> q;
-	    for (int i=0; i<V; i++){
-	         if (indegree[i] == 0) q.push(i);
-	    }
+	   // queue<int> q;
+	   // for (int i=0; i<V; i++){
+	   //      if (indegree[i] == 0) q.push(i);
+	   // }
 	    
-	    vector<int> order;
-	    while (!q.empty()){
-	        int node = q.front();
-            order.push_back(node);
-	        q.pop();
+	   // vector<int> order;
+	   // while (!q.empty()){
+	   //     int node = q.front();
+    //         order.push_back(node);
+	   //     q.pop();
 	        
-	        for (auto it : adj[node]){
-	            if (indegree[it]!=0){
-	                indegree[it]--;
-	                if (indegree[it] == 0) q.push(it);
-	            }
-	        }
-	    }
+	   //     for (auto it : adj[node]){
+	   //         if (indegree[it]!=0){
+	   //             indegree[it]--;
+	   //             if (indegree[it] == 0) q.push(it);
+	   //         }
+	   //     }
+	   // }
 	    
 	    return order;
 	    
