@@ -27,25 +27,42 @@ public:
         int mini = INT_MAX;
         // vector<vector<int>> memoizationDP(n, vector<int>(n,-1));
 
-        vector<vector<int>> tabulationDP(n, vector<int>(n,0));
-        for (int j=0; j<n; j++){
-            tabulationDP[0][j] = matrix[0][j];
-        }
+        // vector<vector<int>> tabulationDP(n, vector<int>(n,0));
+        // for (int j=0; j<n; j++){
+        //     tabulationDP[0][j] = matrix[0][j];
+        // }
 
-        for (int row=1; row<n; row++){
+        // for (int row=1; row<n; row++){
+        //     for (int col = 0; col < n; col++){
+        //         int up = INT_MAX , upperLeft = INT_MAX, upperRight = INT_MAX;
+            
+        //         if (row > 0 ) up = tabulationDP[row-1][col];
+        //         if (col > 0) upperLeft = tabulationDP[row-1][col-1];
+        //         if (col < n-1) upperRight = tabulationDP[row-1][col+1];
+        //         tabulationDP[row][col] = matrix[row][col] + min(up,min(upperRight,upperLeft));
+        //     }
+            
+        // }
+
+        vector<int> prev(n,0);
+        for (int j = 0; j < n; j++){
+            prev[j] = matrix[0][j];
+        }
+        for (int row = 1; row < n; row++){
+            vector<int> temp(n,0);
             for (int col = 0; col < n; col++){
-                int up = INT_MAX , upperLeft = INT_MAX, upperRight = INT_MAX;
+                int upperLeft = INT_MAX, upperRight = INT_MAX;
             
-                if (row > 0 ) up = tabulationDP[row-1][col];
-                if (col > 0) upperLeft = tabulationDP[row-1][col-1];
-                if (col < n-1) upperRight = tabulationDP[row-1][col+1];
-                tabulationDP[row][col] = matrix[row][col] + min(up,min(upperRight,upperLeft));
+                int up = prev[col];
+                if (col > 0) upperLeft = prev[col-1];
+                if (col < n-1) upperRight = prev[col+1];
+                temp[col] = matrix[row][col] + min(up,min(upperRight,upperLeft));
             }
-            
+            prev = temp;
         }
 
         for (int j= 0; j < n; j++){
-            mini = min(mini, tabulationDP[n-1][j]);   
+            mini = min(mini, prev[j]);   
         }
 
         return mini;
