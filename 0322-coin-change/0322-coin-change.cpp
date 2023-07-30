@@ -33,23 +33,43 @@ public:
         // int ans = memoization(n-1, amount, coins, dp);
         // return ans == 1e9 ? -1 : ans;
 
-        vector<vector<int>> dp(n, vector<int> (amount + 1, 1e9)); // dp[indx][amount];
+        // vector<vector<int>> dp(n, vector<int> (amount + 1, 1e9)); // dp[indx][amount];
         // BASE CASE
-        for (int i=0; i<=amount; i++){
-            if (i % coins[0] == 0) dp[0][i] = i / coins[0];
-        }
-        for (int indx=1; indx<n; indx++){
-            for (int target = 0; target <= amount; target++){
-                int notPick = 0 + dp[indx-1][target];
+        // for (int i=0; i<=amount; i++){
+        //     if (i % coins[0] == 0) dp[0][i] = i / coins[0];
+        // }
+        // for (int indx=1; indx<n; indx++){
+        //     for (int target = 0; target <= amount; target++){
+        //         int notPick = 0 + dp[indx-1][target];
                 
-                int pick = INT_MAX;
-                if (coins[indx]<=target) pick = 1 + dp[indx][target-coins[indx]];
+        //         int pick = INT_MAX;
+        //         if (coins[indx]<=target) pick = 1 + dp[indx][target-coins[indx]];
 
-                dp[indx][target] = min(pick,notPick);
-            }
+        //         dp[indx][target] = min(pick,notPick);
+        //     }
+        // }
+        // int ans = dp[n-1][amount];
+        // return ans == 1e9 ? -1 : ans;
+
+        vector<int> prev(amount + 1, 1e9);
+        for (int i=0; i<=amount; i++){
+            if (i % coins[0] == 0) prev[i] = i / coins[0];
         }
-        int ans = dp[n-1][amount];
-        return ans == 1e9 ? -1 : ans;
+        for (int indx=1; indx< n ; indx++){
+            vector<int> temp(amount + 1);
+            for (int target = 0; target <= amount; target++){
+                
+                int notPick = 0 + prev[target];
+                
+                int pick = 1e9;
+                if (coins[indx] <= target) pick = 1 + temp[target-coins[indx]];
 
+                temp[target] = min(pick,notPick);
+            }
+
+            prev = temp;
+        }
+        int ans = prev[amount];
+        return ans == 1e9 ? -1 : ans;
     }
 };
