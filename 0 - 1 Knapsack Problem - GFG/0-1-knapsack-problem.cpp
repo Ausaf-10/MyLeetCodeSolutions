@@ -57,15 +57,15 @@ class Solution{
         for (int W = wt[0]; W<=maxWeight; W++) prev[W] = val[0];
         
         for (int indx = 1; indx<n; indx++){
-            vector<int> temp(maxWeight+1,0);
-            for (int W = 0; W<=maxWeight; W++){
+            // vector<int> temp(maxWeight+1,0);
+            for (int W = maxWeight; W>=0; W--){
                 int notPick = 0 + prev[W];
                 int pick = INT_MIN;
                 if (wt[indx] <= W) pick = val[indx] + prev[W - wt[indx]];
                 
-                temp[W] = max(pick,notPick);
+                prev[W] = max(pick,notPick);
             }
-            prev = temp;
+            // prev = temp;
         }
         
         return prev[maxWeight];
