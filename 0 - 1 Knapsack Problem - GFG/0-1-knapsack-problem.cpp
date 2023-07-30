@@ -36,22 +36,40 @@ class Solution{
        // Your code here
         // vector<vector<int>> dp(n , vector<int> (remWt + 1, -1));
         
-        vector<vector<int>> dp(n, vector<int>(maxWeight + 1, 0));
-        // BASE CASE
-        for (int W = wt[0]; W <= maxWeight; W++) dp[0][W] = val[0];
+        // vector<vector<int>> dp(n, vector<int>(maxWeight + 1, 0));
+        // // BASE CASE
+        // for (int W = wt[0]; W <= maxWeight; W++) dp[0][W] = val[0];
+        
+        // for (int indx = 1; indx<n; indx++){
+        //     for (int W = 0; W <= maxWeight; W++){ 
+                
+                // int notPick = 0 + dp[indx-1][W];
+                // int pick = INT_MIN;
+                // if (wt[indx] <= W) pick = val[indx] + dp[indx-1][W - wt[indx]];
+                
+                // dp[indx][W] = max(pick,notPick);
+        //     }
+        // }
+        
+        // return dp[n-1][maxWeight];
+        
+        vector<int> prev(maxWeight + 1, 0);
+        for (int W = wt[0]; W<=maxWeight; W++) prev[W] = val[0];
         
         for (int indx = 1; indx<n; indx++){
-            for (int W = 0; W <= maxWeight; W++){
-                
-                int notPick = 0 + dp[indx-1][W];
+            vector<int> temp(maxWeight+1,0);
+            for (int W = 0; W<=maxWeight; W++){
+                int notPick = 0 + prev[W];
                 int pick = INT_MIN;
-                if (wt[indx] <= W) pick = val[indx] + dp[indx-1][W - wt[indx]];
+                if (wt[indx] <= W) pick = val[indx] + prev[W - wt[indx]];
                 
-                dp[indx][W] = max(pick,notPick);
+                temp[W] = max(pick,notPick);
             }
+            prev = temp;
         }
         
-        return dp[n-1][maxWeight];
+        return prev[maxWeight];
+        
     }
 };
 
