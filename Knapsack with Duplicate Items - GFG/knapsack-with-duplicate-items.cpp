@@ -55,11 +55,30 @@ public:
         return dp[N-1][W];
     }
     
+    int spaceOptimisation(int N, int W, int val[], int wt[]){
+        vector<int> prev(W+1,0);
+        for (int weight = wt[0]; weight <= W; weight++) prev[weight] = val[0] * (weight / wt[0]);
+        
+        for (int indx = 1; indx < N; indx++){
+            vector<int> temp(W+1,0);
+            for (int weight = 0; weight <= W; weight++){
+                int notPick = 0 + prev[weight];
+                int pick = -1e9;
+                if (wt[indx] <= weight) pick = val[indx] + temp[weight - wt[indx]];
+                temp[weight] = max(pick, notPick);
+            }
+            prev = temp;
+        }
+        
+        return prev[W];
+        
+    }
+    
     int knapSack(int N, int W, int val[], int wt[]){
         // code here
 
 
-        return tabulation(N, W, val, wt);
+        return spaceOptimisation(N, W, val, wt);
     }
 };
 
