@@ -21,13 +21,11 @@ public:
 
         return prev[m];
     }
+    
     int minDistance(string word1, string word2) {
         int lengthCommonSubsequence = LCS(word1, word2);
         int n = word1.size(), m = word2.size();
         
-        int deletion = n -  lengthCommonSubsequence;
-        int insertion = m - lengthCommonSubsequence;
-        
-        return deletion + insertion; 
+        return (n + m) - (2*lengthCommonSubsequence);
     }
 };
