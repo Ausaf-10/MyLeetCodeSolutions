@@ -44,10 +44,32 @@ public:
 
         return dp[0][1];
     }
+    
+    int spaceOptimization(vector<int>& prices){
+        int n = prices.size();
+        vector<int> prev(2,0);
+        prev[0] = 0, prev[1] = 0;
+        for (int i=n-1; i>=0; i--){
+            vector<int> temp(2,0);
+            for (int j=0; j<2; j++){
+                int profit = 0;
+                if (j){
+                    profit = max(-prices[i] + prev[!j], 0 + prev[j]);
+                }
+                else{
+                    profit = max(prices[i] + prev[!j], 0 + prev[j]);
+                }
+                temp[j] = profit;
+            }
+            prev = temp;
+        }
+
+        return prev[1];
+    }
 
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         vector<vector<int>> dp (n+1, vector<int>(2,-1));
-        return tabulation(prices);
+        return spaceOptimization(prices);
     }
 };
