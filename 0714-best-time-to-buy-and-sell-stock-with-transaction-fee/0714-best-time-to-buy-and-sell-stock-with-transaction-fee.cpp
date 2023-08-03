@@ -23,9 +23,51 @@ public:
         }
         return dp[indx][buy] = profit;
     }
+
+    int tabulation(vector<int>& prices, int fee){
+        int n = prices.size();
+        vector<vector<int>> dp (n+1, vector<int>(2,0));
+        for (int indx = n-1; indx>=0; indx--){
+            for (int buy = 0; buy < 2; buy++){
+                int profit = 0;
+                if (buy){
+                    profit = max(-prices[indx] + dp[indx+1][!buy], 0 + dp[indx+1][buy]);
+                }
+                else{
+                    profit = max(prices[indx] - fee + dp[indx+1][!buy], 0 + dp[indx+1][buy]);
+                }
+                dp[indx][buy] = profit;
+            }
+        }
+
+        return dp[0][1];
+    }
+
+    int spaceOptimization(vector<int>& prices, int fee){
+        int n = prices.size();
+        vector<int> prev(2,0);
+        for (int indx = n-1; indx>=0; indx--){
+            vector<int> temp (2,0);
+            for (int buy = 0; buy < 2; buy++){
+                int profit = 0;
+                if (buy){
+                    profit = max(-prices[indx] + prev[!buy], 0 + prev[buy]);
+                }
+                else{
+                    profit = max(prices[indx] - fee + prev[!buy], 0 + prev[buy]);
+                }
+                temp[buy] = profit;
+            }
+            prev = temp;
+        }
+
+        return prev[1];
+    
+    }
+
     int maxProfit(vector<int>& prices, int fee){
         int n = prices.size();
         vector<vector<int>> dp (n+1, vector<int>(2,-1));
-        return memoization(0,1,prices,fee, dp);
+        return spaceOptimization(prices,fee);
     }
 };
