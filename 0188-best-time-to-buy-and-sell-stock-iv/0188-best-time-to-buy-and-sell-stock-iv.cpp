@@ -25,9 +25,56 @@ public:
         return dp[indx][buy][cap] = profit;
     }
 
+    int tabulation(vector<int>& prices, int cap){
+        int n = prices.size();
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(cap+1,0)));
+        
+        for (int i=n-1; i>=0; i--){
+            for (int j=0; j<2; j++){
+                for (int k=1; k<cap+1; k++){
+                    int profit = 0;
+                    if (j){
+                        profit = max(-prices[i] + dp[i+1][!j][k],0 + dp[i+1][j][k]);
+                    }
+                    else{
+                        profit =max(prices[i]+dp[i+1][!j][k-1], 0 + dp[i+1][j][k]);
+                    }
+                    dp[i][j][k] = profit;
+                }
+            }
+        }
+
+        return dp[0][1][cap];
+    }
+
+    int spaceOptimzation(vector<int>& prices, int cap){
+        int n = prices.size();
+        vector<vector<int>> prev (2, vector<int>(cap+1,0));
+
+        for (int i=n-1; i>=0; i--){
+            vector<vector<int>> temp (2, vector<int>(cap+1,0));
+            for (int j=0; j<2; j++){
+                for (int k=1; k<cap+1; k++){
+                    int profit = 0;
+                    if (j){
+                        profit = max(-prices[i] + prev[!j][k],0 + prev[j][k]);
+                    }
+                    else{
+                        profit =max(prices[i]+prev[!j][k-1], 0 + prev[j][k]);
+                    }
+                    temp[j][k] = profit;
+                }
+            }
+            prev = temp;
+        }
+
+        return prev[1][cap];
+        
+    }
+
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
         vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(k+1,-1)));
-        return memoization(0, 1, k, prices, dp);
+        return tabulation(prices, k);
     }
 };
