@@ -34,7 +34,7 @@ public:
     bool wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> st(wordDict.begin(), wordDict.end());
         int n = s.size();
-        vector<int> dp(1000,-1);
+        vector<int> dp(n+1,-1);
         return memoization(0, s, st, dp);
     }
 };
