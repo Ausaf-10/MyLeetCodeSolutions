@@ -45,10 +45,31 @@ public:
         return dp[0][0];
     }
 
+    int spaceOptimization(vector<int>& arr){
+        int n = arr.size();
+        vector<int>prev (n+1,0);
+
+        for (int indx = n-1; indx>=0; indx--){
+            vector<int> temp (n+1,0);
+            for (int prevIndx = indx - 1; prevIndx>=-1; prevIndx--){
+                int len = 0 + prev[prevIndx + 1];
+                
+                if (prevIndx == -1 || arr[indx] > arr[prevIndx]){
+                    len = max(len, 1 + prev[indx + 1]);
+                } 
+
+                temp[prevIndx + 1] = len;
+            }
+            prev = temp;
+        }
+
+        return prev[0];
+    }
+
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> dp(n, vector<int>(n+1,-1));
         // return memoization(0, -1, nums, dp);    
-        return tabulation(nums);
+        return spaceOptimization(nums);
     }
 };
