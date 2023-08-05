@@ -11,25 +11,20 @@
  */
 class Solution {
 public:
-    int maxDepth(TreeNode* root){
-        if (root == NULL) return 0; 
-        int lh = maxDepth(root->left);
-        int rh = maxDepth(root->right);
-        return 1+max(lh,rh);
-    }
-    void findMax(TreeNode* root, int& mx){
-        if (root == NULL) return; 
-        int lt = maxDepth(root->left);
-        int rt = maxDepth(root->right);
-        mx = max(mx,lt+rt);
-        findMax(root->left,mx);
-        findMax(root->right,mx);
-    }
-    int diameterOfBinaryTree(TreeNode* root) {
-        if (root == NULL) return 0 ;
-        int mx = 0;
-        findMax(root,mx);
-        return mx;
+    int solve(TreeNode* root, int& maxi){
+        if (root == NULL) return 0;
+        
+        int lt = solve(root->left, maxi);
+        int rt = solve(root->right, maxi);
+        
+        maxi = max(maxi, lt + rt);
+    
+        return 1 + max(lt,rt);
     }
 
+    int diameterOfBinaryTree(TreeNode* root) {
+        int maxi = 0;
+        int x = solve(root, maxi);
+        return maxi;
+    }
 };
