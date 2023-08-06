@@ -5,20 +5,29 @@ public:
         return true;
         return false;
     }
-    void dfs(vector<vector<char>>& grid, int row, int col,vector<vector<char>>& vis){
-        vis[row][col] = 1;
-
+    void bfs(vector<vector<char>>& grid, int row, int col,vector<vector<char>>& vis){
         int n = grid.size(), m = grid[0].size();
+       
+        queue<pair<int,int>> q;
+        q.push({row,col});
+        vis[row][col] = '1';
 
-        int delrow[4] = {-1,0,1,0};
-        int delcol[4] = {0,1,0,-1};
+        while (!q.empty()){
+            int row = q.front().first;
+            int col = q.front().second;
+            q.pop();
 
-        for (int i=0; i<4; i++){
-            int nrow = delrow[i] + row;
-            int ncol = delcol[i] + col;
+            int delrow[4] = {-1,0,1,0};
+            int delcol[4] = {0,1,0,-1};
 
-            if (isValid(grid,nrow,ncol,vis, n, m)){
-                dfs(grid, nrow, ncol, vis);
+            for (int i=0; i<4; i++){
+                int nrow = delrow[i] + row;
+                int ncol = delcol[i] + col;
+
+                if (isValid(grid,nrow,ncol,vis, n, m)){
+                    q.push({nrow,ncol});
+                    vis[nrow][ncol] = '1';
+                }
             }
         }
 
@@ -31,7 +40,7 @@ public:
         for (int i=0; i<n; i++){
             for (int j=0; j<m; j++){
                 if (grid[i][j] == '1' && vis[i][j] == '0'){
-                    dfs(grid, i, j, vis);
+                    bfs(grid, i, j, vis);
                     cnt++;
                 }
             }
