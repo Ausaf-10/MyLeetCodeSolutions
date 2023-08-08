@@ -31,7 +31,26 @@ public:
 
         return dp[n-1][m-1];
     }
+
+    int spaceOptimization(int n , int m){
+        vector<int> prev(m,0);
+
+        for (int row=0; row<n; row++){
+            vector<int> temp(m,0);
+            for (int col=0; col<m; col++){
+                if (row == 0 && col == 0) temp[col] = 1;
+                else{
+                    int up = 0, left = 0;
+                    if (row > 0) up = prev[col];
+                    if (col > 0) left = temp[col-1];
+                    temp[col] = up + left;
+                }
+            }
+            prev = temp;
+        }
+        return prev[m-1];
+    }
     int uniquePaths(int m, int n) {
-        return tabulation(m,n);
+        return spaceOptimization(m,n);
     }
 };
