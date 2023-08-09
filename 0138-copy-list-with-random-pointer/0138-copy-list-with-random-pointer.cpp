@@ -17,21 +17,41 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        unordered_map<Node*, Node*> mp;
+        if (head == NULL) return head;
+
         Node* temp = head;
+        // 1. INSERTING THE COPY OF THE NODES IN BETWEEN 
         while (temp!=NULL){
             Node* newNode = new Node(temp->val);
-            mp[temp] = newNode;
-            temp = temp->next;
+            Node* front = temp->next;
+            temp->next = newNode;
+            newNode->next = front;
+            temp = newNode->next;
+        }   
+        // 2. ASSIGINING THE RANDOM POINTERS OF THE COPY NODES
+        Node* dummy = head->next;
+        temp = head;
+        while (temp!=NULL && temp->next != NULL){
+            if (temp->random == NULL){
+                temp->next->random = NULL;
+            }
+            else{
+                temp->next->random = temp->random->next;
+            }
+            temp = temp->next->next;
         }
 
-        Node* dummy = new Node(-1);
+        // 3. DELETING THE LINKS BETWEEN ORIGINAL AND THE COPIES
         temp = head;
+        
         while (temp!=NULL){
-            mp[temp]->next = mp[temp->next];
-            mp[temp]->random = mp[temp->random];
-            temp = temp->next;
+            Node* front = temp->next->next;
+            if (front == NULL) temp->next->next = NULL;
+            else temp->next->next = front->next;
+            temp->next = front;
+            temp = front;
         }
-        return mp[head];
+
+        return dummy;
     }
 };
