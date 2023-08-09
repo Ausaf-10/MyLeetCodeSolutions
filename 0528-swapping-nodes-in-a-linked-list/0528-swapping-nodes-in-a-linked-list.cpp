@@ -10,39 +10,24 @@
  */
 class Solution {
 public:
-     ListNode* getKFromBeginning(ListNode* head, int k){
-        if (head == NULL || head->next == NULL) return head;
-        ListNode* temp = head;
-        int cnt = 1;
-        while (cnt!=k){
-            cnt++;
-            temp = temp->next;
-        }
-        return temp;
-    }
-
-    ListNode* getKFromEnd(ListNode* head, int k){
-        if (head == NULL || head->next == NULL) return head;
+    ListNode* swapNodes(ListNode* head, int k) {
+        if (head == NULL || head->next==NULL) return head;
         ListNode* dummy = new ListNode(-1);
         dummy->next = head;
-        ListNode* slow = dummy, *fast = dummy;
+        ListNode* slow = dummy , *fast = dummy;
 
         for (int i=1; i<=k; i++) fast = fast->next;
+        ListNode* first = fast;
 
         while (fast!=NULL && fast->next!=NULL){
             fast = fast->next;
             slow = slow->next;
         }
 
-        return slow->next;
-    }
+        ListNode* second = slow->next;
 
-    ListNode* swapNodes(ListNode* head, int k) {
-        if (head == NULL || head->next==NULL) return head;
+        swap(first->val, second->val);
 
-        ListNode* leftNode =  getKFromBeginning(head,k);  
-        ListNode* rightNode =  getKFromEnd(head,k);  
-        swap(leftNode->val, rightNode->val);
         return head;
     }
 };
