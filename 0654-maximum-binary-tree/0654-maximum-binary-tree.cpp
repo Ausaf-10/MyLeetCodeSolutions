@@ -11,21 +11,25 @@
  */
 class Solution {
 public:
-    TreeNode* construct(vector<int>&arr, int start, int end){
-        if (start > end) return NULL;
-        int maxi = -1e9, indx = -1;
-        for (int i=start; i<=end; i++){
-            if (arr[i] > maxi){
-                maxi = arr[i], indx = i;
+    TreeNode* construct(vector<int>& arr){
+        stack<TreeNode*> stk;
+        for (int i=0; i<arr.size(); i++){
+            TreeNode* node = new TreeNode(arr[i]);
+            while (!stk.empty() && arr[i] > stk.top()->val){
+                node->left = stk.top();
+                stk.pop();
             }
+            if (!stk.empty()){
+                stk.top()->right = node;
+            }
+            stk.push(node);
         }
-        TreeNode* root = new TreeNode(maxi);
-        root->left = construct(arr, start, indx-1);
-        root->right = construct(arr, indx+1, end);
-
-        return root;
+        while (stk.size()!=1){
+            stk.pop();
+        }
+        return stk.top();
     }
     TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
-        return construct(nums, 0, nums.size()-1);
+        return construct(nums);
     }
 };
