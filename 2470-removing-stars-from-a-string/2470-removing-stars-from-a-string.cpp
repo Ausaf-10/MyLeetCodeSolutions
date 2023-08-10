@@ -5,16 +5,9 @@ public:
         stack<char> stk;
         for (int i=0; i<s.size(); i++){
             char ch = s[i];
-            if (ch!='*') stk.push(ch);
-            else{
-                stk.pop();
-            }
+            if (ch!='*') ans+=ch;
+            else ans.pop_back();
         }
-        while (!stk.empty()){
-            ans.push_back(stk.top());
-            stk.pop();
-        }
-        reverse(ans.begin(), ans.end());
         return ans;
     }
 };
