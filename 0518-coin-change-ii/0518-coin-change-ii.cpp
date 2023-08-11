@@ -45,9 +45,29 @@ public:
         return dp[n-1][amount];
     }
 
+    int spaceOptimization(int amount, vector<int>& coins){
+        int n = coins.size();
+        vector<int> prev(amount + 1, 0);
+        prev[0] = 1;
+        for (int j=1; j<=amount; j++) prev[j] = j%coins[0] == 0;
+
+        for (int indx=1; indx<n; indx++){
+            vector<int> temp(amount+1,0);
+            temp[0] = 1;
+            for (int target = 1; target<=amount; target++){
+                int notPick = prev[target];
+                int pick = 0;
+                if (coins[indx] <= target) pick = temp[target - coins[indx]] ;
+                temp[target] = pick + notPick;
+            }
+            prev = temp;
+        }
+        return prev[amount];
+    }
+
     int change(int amount, vector<int>& coins) {
         int n = coins.size();
         vector<vector<int>> dp(n, vector<int>(amount+1,-1));
-        return tabulation(amount, coins);
+        return spaceOptimization(amount, coins);
     }
 };
