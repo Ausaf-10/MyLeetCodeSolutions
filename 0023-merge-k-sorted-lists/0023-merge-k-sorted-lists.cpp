@@ -10,31 +10,29 @@
  */
 class cmp{
     public:
-    bool operator()(ListNode* a, ListNode* b){
-        return (a->val > b->val);
+    bool operator() (ListNode* a, ListNode* b){
+        return a->val > b->val; // a should come before b for minHeap
     }
 };
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        // THIS COMPARATOR MAKE SURES THAT b IS INSERTED FIRST THEN a 
-        priority_queue<ListNode*,vector<ListNode*>,cmp> minHeap;
+        priority_queue<ListNode*, vector<ListNode*>, cmp> pq;
 
-
-        // ITEARTING THE HEAD OF EACH AND EVERY LINKED LIST
-        for (auto it:lists){
-            if (it!=NULL) minHeap.push(it);
+        for (auto it : lists){
+            if (it!=NULL) pq.push(it);
         }
 
-        ListNode* temp = new ListNode(-1);
-        ListNode* dummy = temp;
+        ListNode* dummy = new ListNode (-1);
+        ListNode* temp = dummy;
 
-        while (!minHeap.empty()){
-            ListNode* var = minHeap.top();
-            temp->next = var;
+        while (!pq.empty()){
+            ListNode* top = pq.top();
+            pq.pop();
+            temp->next = top;
+            top = top->next;
+            if (top!=NULL) pq.push(top);
             temp = temp->next;
-            minHeap.pop();
-            if (var->next!=NULL) minHeap.push(var->next);
         }
 
         return dummy->next;
