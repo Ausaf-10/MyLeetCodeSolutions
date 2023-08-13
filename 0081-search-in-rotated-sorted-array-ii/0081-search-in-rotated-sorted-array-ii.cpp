@@ -1,39 +1,30 @@
 class Solution {
 public:
-    bool search(vector<int>& nums, int target) {
-        int l = 0;
-        int r = nums.size() - 1;
-        
-        while(l <= r)
-        {
-            int mid = l + (r-l) / 2;
-            if (nums[mid] == target)
-                return true;
-			// with duplicates we can have this contdition, just update left & right
-            if((nums[l] == nums[mid]) && (nums[r] == nums[mid]))
-            {
-                l++;
-                r--;
+    bool search(vector<int>& arr, int target) {
+        int n = arr.size();
+        int low = 0, high = n-1;
+        while (low <= high){
+            int mid = low + (high - low)/2;
+            if (arr[mid] == target) return true;
+            // LEFT SORTED
+            else if (arr[mid] == arr[low] && arr[mid] == arr[high]){
+                low = low + 1, high = high - 1;
+                continue;
             }
-			// first half
-			// first half is in order
-            else if(nums[l] <= nums[mid])
-            {
-				// target is in first  half
-                if((nums[l] <= target) && (nums[mid] > target))
-                    r = mid - 1;
-                else
-                    l = mid + 1;
+            
+            else if (arr[low] <= arr[mid]){
+                if (arr[low] <= target && target<=arr[mid]){
+                    high = mid - 1;
+                }
+                else low = mid + 1;
             }
-			// second half
-			// second half is order
-			// target is in second half
-            else
-            {
-                if((nums[mid] < target) && (nums[r]>= target))
-                    l = mid + 1;
-                else
-                    r = mid - 1;
+            
+            
+            else {
+                if (arr[mid] <= target && target<=arr[high]){
+                    low = mid + 1;
+                }
+                else high = mid -1;
             }
         }
         return false;
