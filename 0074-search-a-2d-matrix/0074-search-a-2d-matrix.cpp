@@ -11,11 +11,11 @@ public:
 
         return false;
     }
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int n = matrix.size(), m = matrix[0].size();
+    bool searchMatrix(vector<vector<int>>& mat, int target) {
+        int n = mat.size(), m = mat[0].size();
 
         for (int i=0; i<n; i++){
-            if (binarySearch(matrix[i] , target)) return true;    
+            if (mat[i][0]<=target && target<=mat[i][m-1] && binarySearch(mat[i] , target)) return true;    
         }
 
         return false;
