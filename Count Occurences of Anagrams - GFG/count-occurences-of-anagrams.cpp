@@ -15,29 +15,30 @@ public:
 	        mp[it]++;
 	    }
 	    
-	    int i=0,j=0, cnt = 0;
+	    int ans = 0;
+	    int cnt = mp.size();
+	    
+	    int i=0,j=0;
 	    int k = pat.size(), n = str.size();
 	    
 	    while (j < n){
 	        char ch = str[j];
 	        if (mp.find(ch) != mp.end()){
 	            mp[ch]--;
+	            if (mp[ch] == 0) cnt--;
 	        }
 	        if (j-i+1 < k) j++;
 	        else if (j-i+1 == k){
-	            bool allZero = true;
-	            for (auto it : mp){
-	                if (it.second!=0){
-	                    allZero = false;
-	                }
+	            if (cnt == 0) ans++;
+	            if (mp.find(str[i]) != mp.end()){
+	                mp[str[i]]++;
+	                if (mp[str[i]] == 1) cnt++;
 	            }
-	            if (allZero) cnt++;
-	            if (mp.find(str[i]) != mp.end()) mp[str[i]]++;
 	            i++,j++;
 	        }
 	    }
 	    
-	    return cnt;
+	    return ans;
 	}
 
 };
