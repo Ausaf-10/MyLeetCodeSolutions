@@ -117,46 +117,37 @@ struct Node
 class Solution
 {
 public:
-    void rootNodePath(Node* root, int sum, vector<vector<int>>& ans, vector<int>& ds, int& maxi, int &maxSize){
+    void solve(Node* root, int sum, int& maxi, int& maxSize,int level){
         if (root == NULL) return ;
-        
-        ds.push_back(root->data);
         sum+=root->data;
         
-        rootNodePath(root->left, sum, ans, ds, maxi, maxSize);
-        rootNodePath(root->right, sum, ans, ds, maxi, maxSize);
+            
+        solve(root->left, sum, maxi, maxSize, level+1);
+        solve(root->right, sum, maxi, maxSize, level+1);
         
-        if (root->left == NULL && root->right == NULL){
-            if (ds.size() >= maxSize){
+        if (!root->left && !root->right){
+            if (level >= maxSize){
+                maxSize = level;
                 maxi = sum;
-                maxSize = ds.size();
             }
-            ans.push_back(ds);
         }
         
         sum-=root->data;
-        ds.pop_back();
-        
         return ;
+
     }
     int sumOfLongRootToLeafPath(Node *root){
         //code here
-        vector<vector<int>> ans;
-        vector<int> ds;
+        if (root == NULL) return 0;
+        if (!root->left && !root->right) return root->data;
         
         int maxi = -1e9, maxSize = 0;
-        rootNodePath(root, 0, ans, ds, maxi, maxSize);
-        
-        // for (int i=0; i<ans.size(); i++){
-        //     for (int j=0; j<ans[i].size(); j++){
-        //         cout << ans[i][j] << " ";
-        //     }
-        //     cout << endl;
-        // }
+        solve(root,0,maxi,maxSize,0);
         
         return maxi;
     }
 };
+
 
 //{ Driver Code Starts.
 
