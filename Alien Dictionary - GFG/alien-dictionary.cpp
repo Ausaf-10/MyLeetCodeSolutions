@@ -9,91 +9,70 @@ using namespace std;
 
 class Solution{
     public:
-        void dfs(int node, vector<int> adj[], vector<int>& vis, stack<int>& stk){
-            vis[node] = 1;
-            for (auto adjNode : adj[node]){
-                if (!vis[adjNode]){
-                    dfs(adjNode,adj,vis,stk);
-                }
+    vector<int> topoSort(int V, vector<int> adj[]){
+        vector<int> indegree(V,0);
+        for (int i=0; i<V; i++){
+            for (auto it : adj[i]){
+                indegree[it]++;
             }
-            stk.push(node);
-            return ;
         }
-        vector<int> topoSort(int V, vector<int> adj[]) {
-            stack<int> stk;
-            vector<int> vis(V,0);
-            for (int i=0; i<V; i++){
-                if (!vis[i])
-                    dfs(i,adj,vis,stk);
+        
+        queue<int> q;
+        for (int i=0; i<V; i++){
+            if (indegree[i] == 0){
+                q.push(i);
             }
+        }
+        
+        vector<int> topo;
+       
+        while (!q.empty()){
+            int node = q.front();
+            topo.push_back(node);
+            q.pop();
             
-            vector<int> order;
-            while (!stk.empty()){
-                order.push_back(stk.top());
-                stk.pop();
+            for (auto it : adj[node]){
+                if (indegree[it]!=0){
+                    indegree[it]--;
+                    if (indegree[it] == 0)  q.push(it);
+                }    
             }
-            
-            return order;
-            
-            
-            
-            
-            
-	   // int indegree[V]={0};
-	   // for (int i=0; i<V; i++){
-	   //     for (auto it : adj[i]){
-	   //         indegree[it]++;
-	   //     }
-	   // }
-	    
-	   // queue<int> q;
-	   // for (int i=0; i<V; i++){
-	   //      if (indegree[i] == 0) q.push(i);
-	   // }
-	    
-	   // vector<int> order;
-	   // while (!q.empty()){
-	   //     int node = q.front();
-    //         order.push_back(node);
-	   //     q.pop();
-	        
-	   //     for (auto it : adj[node]){
-	   //         if (indegree[it]!=0){
-	   //             indegree[it]--;
-	   //             if (indegree[it] == 0) q.push(it);
-	   //         }
-	   //     }
-	   // }
-	    
-	    return order;
-	    
-	}
-    public:
-    string findOrder(string dict[], int V, int K) {
-        //code here
+        }
+        
+        return topo;
+    }
+    string findOrder(string dict[], int N, int K) {
+        // //code here
+        // set<string> st;
+        // for (int i=0; i<N; i++){
+        //     st.insert(dict[i]);
+        // }
+        
         vector<int> adj[K];
-        // CREATING A DIRECTed GRAPH
-        for (int i=0; i<V-1; i++){
-            string s1 = dict[i];
-            string s2 = dict[i+1];
-            int len = min(s1.size(),s2.size());
-            for (int ptr = 0; ptr < len; ptr++){
-                if (s1[ptr] != s2[ptr]){
-                    adj[s1[ptr] - 'a'].push_back(s2[ptr] - 'a'); // creating a graph using integers
+        // CREATING AN ADJACENCY LIST -> DIRECTED GRAPH
+        for (int i=0; i<N-1; i++){
+            string str1 = dict[i];
+            string str2 = dict[i+1];
+            int len = min(str1.size(), str2.size());
+            for (int ptr = 0; ptr<len; ptr++){
+                if (str1[ptr]!=str2[ptr]){
+                    adj[str1[ptr]-'a'].push_back(str2[ptr]-'a');
                     break;
                 }
             }
         }
         
-        vector<int> topo = topoSort(K,adj);
-        string ans="";
-        for (auto it : topo){
-            ans+=char(it + 'a');
+        vector<int> order = topoSort(K, adj);
+       
+        string ans ="";
+        for (auto it : order){
+            ans+=it+'a';
         }
         
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 string order;
