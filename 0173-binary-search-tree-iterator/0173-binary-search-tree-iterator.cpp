@@ -11,8 +11,9 @@
  */
 class BSTIterator {
 public:
-    void pushAll(TreeNode* cur){
-        while (cur!=NULL){
+    void pushAll(TreeNode* root, stack<TreeNode*>& stk){
+        TreeNode* cur = root;
+        while (cur){
             stk.push(cur);
             cur = cur->left;
         }
@@ -20,16 +21,14 @@ public:
     }
     stack<TreeNode*> stk;
     BSTIterator(TreeNode* root) {
-        pushAll(root);
+        pushAll(root,stk);
     }
     
     int next() {
-        TreeNode* node = stk.top();
-        stk.pop();
-        
+        TreeNode* node = stk.top(); stk.pop();
         if (node->right!=NULL){
-            TreeNode* cur = node->right;
-            pushAll(cur);
+            TreeNode*  cur = node->right;
+            pushAll(cur,stk);
         }
         return node->val;
     }
