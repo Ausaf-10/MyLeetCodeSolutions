@@ -18,9 +18,7 @@ public:
         bool lt = validBST(root->left, low, root->val);
         bool rt = validBST(root->right, root->val, high);
         
-        if (lt==true && rt==true) return true;
-        
-        return false;
+        return lt && rt;
     }
     bool isValidBST(TreeNode* root) {
         return validBST(root,LONG_MIN,LONG_MAX);
