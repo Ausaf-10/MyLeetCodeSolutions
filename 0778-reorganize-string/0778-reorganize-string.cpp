@@ -30,6 +30,6 @@ public:
 
         }
         
-        return ans.size()==n ? ans : "";
+        return ans.size() == n ? ans : "";
     }
 };
