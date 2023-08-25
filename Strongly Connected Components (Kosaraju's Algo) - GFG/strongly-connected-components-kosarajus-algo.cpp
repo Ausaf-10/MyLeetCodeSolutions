@@ -30,11 +30,12 @@ class Solution{
 	public:
     int kosaraju(int V, vector<vector<int>>& adj){
         // 1. SORT THE EDGES ACCORDING TO THE FINISHING TIME -> CALL THE DFS FOR EVERY NODE!
-        stack<int> stk;
-        vector<int> vis(V,0);
+        stack<int> stk;             // SC:O(V)
+        vector<int> vis(V,0);       // SC:O(V)
         
         // I AM GONG TO CALL THE DFS FOR EVERY NODE, so that every one is in stack
-        for (int i=0; i<V; i++){
+        
+        for (int i=0; i<V; i++){            // TC: O(V+E) + O(V)
             if (!vis[i]){
                 dfs(adj,i,vis,stk);
             }
@@ -42,6 +43,8 @@ class Solution{
         
         
         // 2. REVERSE ALL EDGES 
+        
+        // SC:O(V+E)
         vector<int> transposeAdj[V]; // THAT IS GOING TO CONTAIN THE REVERSE EDGES
         for (int i=0; i<V; i++){
             vis[i] = 0;                 // DOING THIS SO THAT WE CAN REUSE THIS VISTED ARRAY AND MARKING EVERY ONE OF THEM AS UNMARKED
@@ -54,13 +57,17 @@ class Solution{
         
         // 3. NOW CALL THE DFS AND COUNT THE SCC
         int scc = 0;
-        while (!stk.empty()){
+        
+        
+        while (!stk.empty()){                       // TC: O(V+E) + O(V)
             int node = stk.top(); stk.pop();
             if (!vis[node]){
                 dfs3(transposeAdj,node, vis);
                 scc++;
             }
         }
+        
+                                                // TC: 3 * O(V+E)
         
         return scc;
         
