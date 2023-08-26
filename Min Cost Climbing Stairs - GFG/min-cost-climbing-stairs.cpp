@@ -76,7 +76,7 @@ class Solution {
         // int n = cost.size();
         // vector<int> dp(n+1,-1);
         
-        return tabulation(cost, n);
+        return spaceOptimization(cost, n);
     }
 };
 
