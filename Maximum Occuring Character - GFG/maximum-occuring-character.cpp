@@ -11,20 +11,21 @@ class Solution
     public:
     //Function to find the maximum occurring character in a string.
     char getMaxOccuringChar(string str){
-        map<char,int> mp;
+        
+        int freq[26]={0};
         
         for (int i=0; i<str.size(); i++){
             char ch = str[i];
-            if (ch!=' ') mp[ch]++;
+            if (ch!=' ') freq[ch-'a']++;
         }
         
         int maxi = -1e9;
         char ans ;
        
-        for (auto it : mp){
-            if (it.second > maxi){
-                maxi = it.second;
-                ans = it.first;
+        for (int i=0; i<26; i++){
+            if (freq[i] > maxi){
+                maxi = freq[i];
+                ans = i + 'a';
             }
         }
         
