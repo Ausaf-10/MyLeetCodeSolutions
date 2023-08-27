@@ -20,9 +20,33 @@ public:
 
         return ;
     }
+
+    void method2(string& str){
+        int n = str.size();
+        
+        int i=0,l=0,r=0;
+
+        while (i<str.size()){
+           
+            while (i < n && str[i]!=' '){
+                str[r++] = str[i++];
+            }
+            if (l < r){
+                reverse(str.begin() + l, str.begin() + r);
+                str[r] = ' ';
+                r++;
+                l = r;
+            }
+            i++; // jab str[i] = space hoga tab usko increment krte rahnge!
+        }
+        str = str.substr(0,r-1);
+        return ;
+    }
+
     string reverseWords(string s) {
         string ans;
-        reverseInPlace(s,ans);
-        return ans;
+        // reverseInPlace(s,ans);
+        method2(s);
+        return s;
     }
 };
