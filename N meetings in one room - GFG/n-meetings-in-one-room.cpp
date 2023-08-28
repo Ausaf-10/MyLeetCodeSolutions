@@ -12,17 +12,21 @@ class Solution
         if (a.second.second == b.second.second) return a.second.second < b.second.second;
         return a.second.first < b.second.first;
     }
+    // WE WILL BE ABLE TO CONDUCT MAX MEETING IF WE CONDUCT THE MEETINGS JINKA END TIME SABSE KAM HAI TOH SABSE PEHLE JALDI WAALON KO NIPTADO!
     int maxMeetings(int start[], int end[], int n){
-        // Your code here
+        
         vector<pair<int,pair<int,int>>> vec;
         //  START:{END,POSITION}
         for (int i=0; i<n; i++){
-            vec.push_back({start[i],{end[i],i+1}});
+            vec.push_back({start[i],{end[i],i+1}});                     // TC: O(N)
         }
-        sort(vec.begin(),vec.end(),compare);
+        
+        // SORTED ACCORDING TO THE FINISHING TIME
+        sort(vec.begin(),vec.end(),compare);                            // TC: O(NlogN)
+    
         int endTime = 0;
         int cnt = 0;
-        for (int i=0; i<n; i++){
+        for (int i=0; i<n; i++){                                        // TC: O(N)
             int startTime = vec[i].first;
             if (startTime > endTime){
                 cnt++;
