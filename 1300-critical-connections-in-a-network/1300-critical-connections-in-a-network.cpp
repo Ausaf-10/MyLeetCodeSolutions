@@ -2,7 +2,7 @@ class Solution {
 public:
     int timer;
     void dfs(vector<int> adj[], int node, int parent, vector<int> &vis, int tin[], int low[],
-            vector<vector<int>> &bridges){
+        vector<vector<int>> &bridges){
         vis[node] = 1;
         
         tin[node] = low[node] = timer;
@@ -37,22 +37,25 @@ public:
         // LOW[] -> LOWEST INSERTION TIME OF ADJACENT NODES APART FROM PARENT!
         
 
-        // JAB AAP KISI NODE PE AUR AAGE NHI JAA SKTE THEN PICK UP THE LOW OF THAT NODE'S CHILDREN
-        // JAB WAPAS AATE HAIN PARENT NODE PE TOH AGAIN PARENT KA LOW CHANGE KR DO
-        // AND NOW CHECK WHETER THIS EDGE B/W PARENT AND CHILD CAN BE A BRIDGE OR NOT 
+        // 1. JAB AAP KISI NODE PE AUR AAGE NHI JAA SKTE THEN PICK UP THE LOW OF THAT NODE'S CHILDREN
+        // 2. JAB WAPAS AATE HAIN PARENT NODE PE TOH AGAIN PARENT KA LOW CHANGE KR DO
+        // 3 .AND NOW CHECK WHETER THIS EDGE B/W PARENT AND CHILD CAN BE A BRIDGE OR NOT 
         // IF (LOW[CHILD] <= INSERTION TIME[PARENT]) -> NO BRIDGE
-        // ELSE  FOR BRIDGE -> LOW[CHILD] > INSERTION TIME[PARENT]
+        // ELSE  FOR BRIDGE -> LOW[CHILD] > INSERTION TIME[PARENT], WHICH MEANS IF WE REMOVE THE EDGE THEN THEY WILL NOT BE REACHABLE 
 
 
-        vector<int> adj[V];
+        vector<int> adj[V];                 // SC: O(V+2E)
         for (auto it : connections){
             adj[it[0]].push_back(it[1]);
             adj[it[1]].push_back(it[0]);
         }
-        int tin[V] , low[V] ;
-        vector<int> vis(V,0);
-        vector<vector<int>> bridges;
-        dfs(adj,0,-1,vis,tin,low, bridges);
+        
+        // SC: O(3V)
+        int tin[V] , low[V] ;      
+        vector<int> vis(V,0);                
+        
+        vector<vector<int>> bridges;        
+        dfs(adj,0,-1,vis,tin,low, bridges);     // TC: O(V+2E)
 
         return bridges;
 
