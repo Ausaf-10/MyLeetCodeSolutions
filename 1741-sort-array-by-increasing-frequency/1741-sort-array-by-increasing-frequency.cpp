@@ -1,33 +1,34 @@
+class cmp{
+    public:
+        bool operator()(pair<int,int>& a, pair<int,int>& b){
+            if (a.first == b.first) return a.second < b.second;
+            return a.first > b.first;
+        }
+};
 class Solution {
 public:
     vector<int> frequencySort(vector<int>& nums) {
-        // THIS QUESTION IS THE SAMES AS ***TOP K FREQUENT ELEMENTS*** BUT IN THIS WE ARE TAKING
-        // MAXHEAP BECAUSE WHEN THE COUNT OF 2 ELEMENTS ARE SAME THEN THE GREATER WILL BE 
-        // AT THE TOP SO WE WOULD NOT HAVE TO DO ANYHTING EXTRA!!!
-        priority_queue<pair<int,int>> maxHeap;
-        vector<int> ans;
+        priority_queue<pair<int,int>, vector<pair<int,int>>, cmp > minHeap;
         unordered_map<int,int> mp;
+        for (auto it : nums) mp[it]++;
 
-        for (int i=0; i<nums.size(); i++) mp[nums[i]]++;
-
-        // NOW PUTTING ELEMENTS FROM MAP TO MAXHEAP ACCORDING TO THEIR FREQUENCY
-        for (auto number:mp){
-            maxHeap.push({-1*number.second,number.first});
+        for (auto it : mp){
+            int freq = it.second , value = it.first;
+            minHeap.push({freq,value});
         }
 
+        vector<int> ans;
 
-        // NOW PUTTING ALL THE ELEMENTS FROM MAXHEAP TO ANS 
-        while (!maxHeap.empty()){
-            int freq = abs(maxHeap.top().first);
-            int currentValue = maxHeap.top().second;
-
+        while (!minHeap.empty()){
+            int node = minHeap.top().second, freq = minHeap.top().first;
+            minHeap.pop();
             for (int i=0; i<freq; i++){
-                ans.push_back(currentValue);
+                ans.push_back(node);
             }
 
-            maxHeap.pop();
         }
 
         return ans;
+    
     }
 };
