@@ -24,25 +24,25 @@ public:
         int maxi = *max_element(arr.begin(), arr.end());
        
         int ans = -1;
-        bool flag = false;
-        // for (int i=mini; i<=maxi; i++){
-        //     if (possible(arr,i,m,k)){
-        //         ans = i;
-        //         break;
-        //     }
-        // }
+        // bool flag = false;
+        // // for (int i=mini; i<=maxi; i++){
+        // //     if (possible(arr,i,m,k)){
+        // //         ans = i;
+        // //         break;
+        // //     }
+        // // }
        
         int low = mini, high = maxi;
         while (low <= high){
             int mid = low + (high - low)/2;
             if (possible(arr,mid,m,k)){
-                ans = mid, high = mid - 1, flag = true;
+                ans = mid, high = mid - 1;
             }
             else low = mid + 1;
         }
 
-        if (flag) return ans;
-        return  -1;
+        // if (flag) return ans;
+        // return  -1;
 
         return ans;
     }
