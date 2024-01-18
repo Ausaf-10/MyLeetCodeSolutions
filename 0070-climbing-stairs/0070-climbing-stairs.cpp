@@ -1,15 +1,9 @@
 class Solution {
 public:
-    // indx: n -> 0
-    int recursion(int n){
-        if (n <= 1) return 1;
-        return recursion(n-1) + recursion(n-2);
-    }
-
     int memoization(int n, vector<int>& dp){
         if (n <= 1) return 1;
         if (dp[n]!=-1) return dp[n];
-        return memoization(n-1, dp) + memoization(n-2, dp);
+        return dp[n] = memoization(n-1, dp) + memoization(n-2, dp);
     }
     int tabulation(int n){
         vector<int> dp(n+1,-1);
@@ -19,28 +13,17 @@ public:
         }
         return dp[n];
     }
+    int constantSpace(int n){
+        int prev1 = 1, prev2 = 1;
+        for (int i=2; i<=n; i++){
+            int sum = prev1 + prev2;
+            prev2 = prev1, prev1 = sum;
+        }
+        return prev1;
+    }
     int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
-        // dp[0] = 1;
-        // for (int i=1; i<=n; i++){
-        //     int first = dp[i-1];
-        //     int two = 0;
-        //     if (i > 1) two = dp[i-2];
-        //     dp[i] = first + two;
-        // }
-        // return dp[n];
-
+        // vector<int> dp(n+1,-1);
         // return memoization(n,dp);
-
-        // int prev  = 1, prev2 = 0;
-        
-        // for (int i=1; i<=n ; i++){
-        //     int cur = prev + prev2;
-        //     prev2 = prev , prev = cur;
-        // }
-
-        // return prev;
-
-        return tabulation(n);
+        return constantSpace(n);
     }
 };
