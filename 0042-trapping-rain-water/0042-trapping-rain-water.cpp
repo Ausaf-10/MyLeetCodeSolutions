@@ -1,21 +1,28 @@
 class Solution {
 public:
     int trap(vector<int>& arr) {
-        int ans =0 ;
-        int l = 0, r = arr.size() - 1;
-        int leftMax = 0, rightMax = 0;
-        while (l <= r){
-            if (arr[l]<=arr[r]){
-                if (arr[l] >= leftMax) leftMax = arr[l];
-                else ans+= leftMax - arr[l];
-                l++;
+        int n = arr.size();
+        int left = 0, right = n - 1, ans = 0;
+        int leftMax = arr[0], rightMax = arr[n-1];
+        
+        while (left <= right){
+            if (leftMax <= rightMax){
+                if (arr[left] > leftMax) leftMax = arr[left];
+                else{
+                    ans+=leftMax - arr[left];
+                    left++;
+                }
             }
             else{
-                if (arr[r] >= rightMax) rightMax = arr[r];
-                else ans+= rightMax - arr[r] ;
-                r--;
+                if (arr[right] > rightMax) rightMax = arr[right];
+                else{
+                    ans+=rightMax - arr[right];
+                    right--;
+                }
             }
         }
+        
+        
         return ans;
     }
 };
