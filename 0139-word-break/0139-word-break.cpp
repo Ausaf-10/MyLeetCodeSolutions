@@ -1,40 +1,31 @@
 class Solution {
 public:
-    bool recursion(int indx, string str, unordered_set<string> &dict){
-        if (indx == str.size()) return true;
-        if (dict.find(str) != dict.end()) return true;
-
-        for (int l=1; l<=str.size(); l++){
-            string temp = str.substr(indx,l);
-            if (dict.find(temp)!= dict.end() && recursion(indx+l, str, dict)) return true;
-        }
-
-        return false;
-
-    }
-    bool memoization(int indx, string str, unordered_set<string> &dict, vector<int>& dp){
-        if (indx == str.size()) return true;
-       
-        if (dict.find(str) != dict.end()) return true;
-       
-        if (dp[indx]!=-1) return dp[indx];
-       
-        for (int l=1; l<=str.size(); l++){
-            string temp = str.substr(indx,l);
-            if (dict.find(temp)!= dict.end() && memoization(indx+l, str, dict, dp)){
-                return dp[indx] = true;
+    int n;
+    bool recursion(string s, vector<string> &dictionary, unordered_set<string>& st, int indx){
+        if (indx >= n) return true;
+        for (int i=indx; i<n; i++){
+            string str = s.substr(indx, i-indx+1);
+            if (st.find(str) != st.end()){
+                if (recursion(s, dictionary, st, i+1)) return true;
             }
         }
-
-        return dp[indx] = false;
-
+        return false;
     }
-
-
+    int memoization(string s, vector<string> &dictionary, unordered_set<string>& st, int indx, vector<int>& dp){
+        if (indx >= n) return true;
+        if (dp[indx] != -1) return dp[indx];
+        for (int i=indx; i<n; i++){
+            string str = s.substr(indx, i-indx+1);
+            if (st.find(str) != st.end()){
+                if (memoization(s, dictionary, st, i+1, dp)) return dp[indx] = true;
+            }
+        }
+        return dp[indx] = false;
+    }
     bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> st(wordDict.begin(), wordDict.end());
-        int n = s.size();
-        vector<int> dp(n+1,-1);
-        return memoization(0, s, st, dp);
+        n = s.size();
+        vector<int> dp(n,-1);
+        unordered_set<string> st(wordDict.begin(), wordDict.end());;
+        return memoization(s, wordDict, st, 0, dp);
     }
 };
