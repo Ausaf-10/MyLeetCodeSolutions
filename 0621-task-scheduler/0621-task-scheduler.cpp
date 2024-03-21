@@ -1,31 +1,25 @@
 class Solution {
 public:
-    int leastInterval(vector<char>& arr, int coolDownPeriod) {
-        int n = arr.size();
-        if (coolDownPeriod == 0) return n;
-        priority_queue<int> maxHeap;
-        deque<pair<int,int>> q;
-        unordered_map<char, int> mp;
-        for (char ch : arr) mp[ch]++;
+    int leastInterval(vector<char>& tasks, int coolDownPeriod) {
+        unordered_map<char,int> mp;
+        for (auto &it : tasks) mp[it]++;
+        priority_queue<int> pq;
+        queue<pair<int,int>> q;
         for (auto it : mp){
-            maxHeap.push(it.second);
+            pq.push(it.second);
         }
-
-        int time = 0;
-        
-        while (!maxHeap.empty() || !q.empty()){
-            while (!q.empty() && time >= q.front().second){
-                maxHeap.push(q.front().first);
-                q.pop_front();
+        int t = 0;
+        while (!pq.empty() || !q.empty()){
+            while (!q.empty() && t>=q.front().second){
+                pq.push(q.front().first);
+                q.pop();
             }
-            time++;
-            if (!maxHeap.empty()){
-                int freq = maxHeap.top()-1; maxHeap.pop();
-                if (freq != 0) q.push_back({freq, time+coolDownPeriod});
+            t++;
+            if (!pq.empty()){
+                int freq = pq.top()-1; pq.pop();
+                if (freq!=0) q.push({freq,t+coolDownPeriod});
             }
         }
-
-        return time;
-        
+        return t;
     }
 };
