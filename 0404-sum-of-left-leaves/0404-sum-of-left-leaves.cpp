@@ -11,35 +11,16 @@
  */
 class Solution {
 public:
-    bool isLeaf(TreeNode* root){
-        // if (root->left == NULL && root->right == NULL) return true;
-        // return false;
-
-        return (!root->left && !root->right);
+    void preorder(TreeNode* root, int& sum){
+        if (!root) return ;
+        if (root->left && !root->left->left && !root->left->right) sum+=root->left->val;
+        preorder(root->left, sum);
+        preorder(root->right, sum);
+        return ;
     }
     int sumOfLeftLeaves(TreeNode* root) {
-        if (root==NULL || root->left==NULL && root->right == NULL) return 0;
-
         int sum = 0;
-        queue<TreeNode*> q;
-        q.push(root);
-
-        while (!q.empty()){
-            int size = q.size();
-            for (int i=0; i<size; i++){
-                TreeNode* node = q.front();
-                q.pop();
-
-                if (node->left!=NULL){
-                    if (isLeaf(node->left)){
-                        sum+=node->left->val;
-                    }
-                    q.push(node->left);
-                }
-                if (node->right!=NULL) q.push(node->right);
-            }
-        }
-
+        preorder(root, sum);
         return sum;
     }
 };
