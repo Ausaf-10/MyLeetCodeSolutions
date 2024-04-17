@@ -17,16 +17,14 @@ public:
     }
     void solve(TreeNode* root, string path, string& ans){
         if (!root) return ;
-        path.push_back(root->val+'a');
+        path = char(root->val+'a') + path;
         solve(root->left, path, ans);
         solve(root->right, path, ans);
         if (isLeaf(root)){
-            reverse(path.begin(), path.end());
-            if (ans.size() == 0 || path < ans){
+            if (ans=="" || path < ans){
                 ans = path;
             }
         }
-        path.pop_back();
         return ;
     }
     string smallestFromLeaf(TreeNode* root) {
