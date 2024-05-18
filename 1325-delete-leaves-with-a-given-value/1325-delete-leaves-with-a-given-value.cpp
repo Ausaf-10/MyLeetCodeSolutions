@@ -14,17 +14,14 @@ public:
     bool isLeaf(TreeNode* root){
         return !root->left && !root->right;
     }
-    TreeNode* fun(TreeNode* root, int target){
+    TreeNode* removeLeafNodes(TreeNode* root, int target) {
         if (!root) return NULL;
-        TreeNode* lt = fun(root->left, target);
-        TreeNode* rt = fun(root->right, target);
+        TreeNode* lt = removeLeafNodes(root->left, target);
+        TreeNode* rt = removeLeafNodes(root->right, target);
         root->left = lt, root->right = rt;
         if (isLeaf(root)){
             if (root->val == target) return NULL;
         }
         return root;
-    }
-    TreeNode* removeLeafNodes(TreeNode* root, int target) {
-        return fun(root, target);
     }
 };
