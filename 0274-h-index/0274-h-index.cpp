@@ -7,8 +7,8 @@ public:
             for (auto it : citations){
                 if (it >= i) cnt++;
             }
-            if (cnt >= i) ans = max(ans, i);
+            if (cnt >= i) return i;
         }
-        return ans;
+        return -1;
     }
 };
