@@ -1,38 +1,57 @@
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        stack<int> stk;
-        for (int asteroid : asteroids){
-            // COLLISSION
-            while (!stk.empty() && stk.top() > 0 && asteroid < 0){
-                int sum = asteroid + stk.top();
-                if (sum > 0){
-                    // DONT PUSH OR DONT POP
-                    asteroid = 0;
-                    break;
-                }
-                else if (sum == 0){
-                    asteroid = 0;
-                    stk.pop();
-                }
-                else if (sum < 0){
-                    stk.pop();
-                    // asteroid = 0;
+        int n = asteroids.size();
+        for (int i=0; i<asteroids.size(); i++){
+            int ele = asteroids[i];
+            if (ele > 0){
+                int j = i+1;
+                while (j<asteroids.size() && asteroids[j]<=0){
+                    int sum = ele + asteroids[j];
+                    if (sum > 0){
+                        asteroids[j] = 0;
+                    }
+                    else if (sum < 0){
+                        asteroids[i] = 0;
+                        break;
+                    }
+                    else{
+                        asteroids[i] = 0;
+                        asteroids[j] = 0;
+                        break;
+                    }
+                    j++;
                 }
             }
-            if (asteroid != 0) stk.push(asteroid);
-            
+            else if (ele == 0){
+                continue;
+            }
+            else{
+                int j = i-1;
+                while (j>= 0 && asteroids[j] >= 0){
+                    int sum = ele + asteroids[j];
+                    if (sum > 0){
+                        asteroids[i] = 0;
+                        break;
+                    }
+                    else if (sum < 0){
+                        asteroids[j] = 0;
+                    }
+                    else{
+                        asteroids[i] = 0;
+                        asteroids[j] = 0;
+                        break;
+                    }
+                    j--;
+                }
+                        
+                    }
+
         }
-        
-        if (stk.empty()) return {};
         vector<int> ans;
-        while (!stk.empty()){
-            ans.push_back(stk.top());
-            stk.pop();
+        for (auto it : asteroids){
+            if (it!=0) ans.push_back(it);
         }
-        
-        reverse(ans.begin(), ans.end());
-        
         return ans;
     }
 };
