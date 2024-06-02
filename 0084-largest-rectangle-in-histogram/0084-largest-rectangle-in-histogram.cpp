@@ -16,6 +16,8 @@ public:
             s1.push(i);
         } 
 
+        int area = 0, maxArea = 0;
+
         // CALCULATE THE NEXTSMALLER
         for (int i=n-1; i>=0; i--){
             int element = arr[i];
@@ -25,13 +27,11 @@ public:
             if (s2.empty()) nextSmaller[i] = n-1;
             else nextSmaller[i] = s2.top() - 1;
             s2.push(i);
-        }
-
-        int area = 0, maxArea = 0;
-        for (int i=0; i<n; i++){
             area = arr[i] * (nextSmaller[i] - prevSmaller[i] + 1);
             maxArea = max(maxArea,area);
+
         }
+
 
         return maxArea;
     }
