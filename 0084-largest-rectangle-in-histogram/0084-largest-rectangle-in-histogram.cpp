@@ -1,38 +1,20 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& arr) {
-        stack<int> s1,s2;
-        int n = arr.size();
-        vector<int> prevSmaller(n),nextSmaller(n);
-
-        // CALCULATE THE PREVSMALLER
-        for (int i=0; i<n; i++){
-            int element = arr[i];
-            while (!s1.empty() && arr[s1.top()] > element){
-                s1.pop();
+    int largestRectangleArea(vector<int>& heights) {
+        int n = heights.size();
+        int maxi = 0;
+        stack<int>stk;
+        for (int i=0; i<=n; i++){
+            while (!stk.empty() && (i==n || heights[stk.top()] > heights[i])){
+                int height = heights[stk.top()];
+                stk.pop();
+                int width;
+                if (stk.empty()) width = i ;
+                else width = i-stk.top()-1;
+                maxi = max(maxi, height*width);
             }
-            if (s1.empty()) prevSmaller[i] = 0;
-            else prevSmaller[i] = s1.top() + 1;
-            s1.push(i);
-        } 
-
-        int area = 0, maxArea = 0;
-
-        // CALCULATE THE NEXTSMALLER
-        for (int i=n-1; i>=0; i--){
-            int element = arr[i];
-            while (!s2.empty() && arr[s2.top()] >= element){
-                s2.pop();
-            }
-            if (s2.empty()) nextSmaller[i] = n-1;
-            else nextSmaller[i] = s2.top() - 1;
-            s2.push(i);
-            area = arr[i] * (nextSmaller[i] - prevSmaller[i] + 1);
-            maxArea = max(maxArea,area);
-
+            if (i<n) stk.push(i);
         }
-
-
-        return maxArea;
+        return maxi;
     }
 };
