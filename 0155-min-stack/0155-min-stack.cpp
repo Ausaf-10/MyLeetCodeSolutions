@@ -7,8 +7,7 @@ public:
         minEle = 1e9;
     }
     
-    void push(int value) {
-        ll val = value;
+    void push(int val) {
         if (s.empty()){
             minEle = val;
             s.push(val);
@@ -17,7 +16,7 @@ public:
             s.push(val);
         }
         else{
-            s.push(2*val*1ll-minEle);
+            s.push(2*1ll*val-minEle);
             minEle = val;
         }
         return ;
