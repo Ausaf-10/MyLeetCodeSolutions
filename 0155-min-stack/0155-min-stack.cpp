@@ -1,43 +1,44 @@
+using ll = long long int;
 class MinStack {
 public:
-    stack<long long> stk;
-    long long mini;
+    ll minEle;
+    stack<ll> s;
     MinStack() {
+        minEle = 1e9;
     }
     
     void push(int value) {
-        long long val = value;
-        if (stk.empty()){
-            mini = val;
-            stk.push(val);
+        ll val = value;
+        if (s.empty()){
+            minEle = val;
+            s.push(val);
         }
-        else if (val >= mini) stk.push(val);
+        else if (val >= minEle){
+            s.push(val);
+        }
         else{
-            stk.push(2*val*1LL - mini);
-            mini = val;
+            s.push(2*val*1ll-minEle);
+            minEle = val;
         }
-        return;
+        return ;
     }
     
     void pop() {
-        if (stk.top() >= mini) stk.pop();
-        else{
-            // long long el = stk.top();
-            mini = 2*mini - stk.top();
-            stk.pop();
+        if (s.top() < minEle){
+            minEle = 2*minEle*1ll - s.top();
         }
-        return;
+        s.pop();
     }
     
     int top() {
-        if (stk.top() >= mini) return (int)stk.top();
-        else{
-            return (int)mini;
+        if (s.top() < minEle){
+            return minEle;
         }
+        return s.top();
     }
     
     int getMin() {
-        return (int)mini;
+        return minEle;
     }
 };
 
