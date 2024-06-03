@@ -1,6 +1,9 @@
 class Solution {
 public:
     int minAddToMakeValid(string s) {
+        // JO VALID HAIN UNKO HATAO AND JO BHI INVALID HAIN UNKE
+        // CLOSING AUR OPENINING BRACKETS COUNT KRLO!!
+        
         stack<char> stk;
         int open=0,close=0;
         for (int i=0; i<s.size(); i++){
@@ -20,11 +23,6 @@ public:
             stk.pop();
             
         }
-
-        if (open == 0 && close!=0) return close;
-        else if (open != 0 && close == 0) return open;
-        // else if (open == close) return open + close;
-        // else if (close > open) return close - open;
         return open + close;
     }
 };
