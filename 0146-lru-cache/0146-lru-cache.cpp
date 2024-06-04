@@ -27,11 +27,10 @@ public:
         return ;
     }
     
-    void addNode(int getKey, int val){
+    void addNode(Node* node){
         Node* afterHead = head->next;
-        Node* newNode = new Node(getKey, val);
-        head->next = newNode, newNode->prev = head;
-        newNode->next = afterHead, afterHead->prev = newNode;
+        head->next = node, node->prev = head;
+        node->next = afterHead, afterHead->prev = node;
         return ;
     }
 
@@ -39,12 +38,9 @@ public:
         if (mp.find(getKey) == mp.end()) return -1;
         Node* node = mp[getKey];
         int val = node->value;
-        mp.erase(getKey);
         
         deleteNode(node);
-        addNode(getKey,val);
-
-        mp[getKey] = head->next;
+        addNode(node);
 
         return val;
     }
@@ -52,23 +48,19 @@ public:
     void put(int getKey, int val) {
         if (mp.find(getKey) != mp.end()){
             Node* node = mp[getKey];
-            int val = node->value;
             mp.erase(getKey);
-
             deleteNode(node);
         }
 
         if (mp.size() == cap){
             Node* node = tail->prev;
-            int val = node->value;
             mp.erase(node->key);
-
             deleteNode(node);
         }
+        Node* newNode = new Node(getKey, val);
+        addNode(newNode);
 
-        addNode(getKey,val);
-
-        mp[getKey] = head->next;
+        mp[getKey] = newNode;
 
         return ;
     }
