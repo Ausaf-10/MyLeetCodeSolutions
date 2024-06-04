@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0155-min-stack) |
 | [0316-remove-duplicate-letters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0316-remove-duplicate-letters) |
 | [0394-decode-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0394-decode-string) |
+| [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
@@ -62,3 +63,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0155-min-stack) |
+| [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
+# Hash Table
+|  |
+| ------- |
+| [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
+# Ordered Set
+|  |
+| ------- |
+| [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
