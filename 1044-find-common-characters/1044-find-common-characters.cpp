@@ -2,10 +2,8 @@ class Solution {
 public:
     vector<string> commonChars(vector<string>& words) {
         unordered_map<char, int> characterCount;
-        unordered_map<string, int> wordCount;
         int n = words.size();
         for (auto it : words){
-            wordCount[it]++;
             for (int i=0; i<it.size(); i++){
                 characterCount[it[i]]++;
             }
@@ -14,9 +12,9 @@ public:
         for (auto &it : characterCount){
             int mini = 1e9, flag = 1, freq = it.second;
             char ch = it.first;
-            for (auto &j: wordCount){
+            for (int j=0; j<n; j++){
                 unordered_map<char, int> mp;
-                string str = j.first;
+                string str = words[j];
                 for (int i=0; i<str.size(); i++) mp[str[i]]++;
                 if (mp.find(ch) == mp.end()){
                     flag = 0;
