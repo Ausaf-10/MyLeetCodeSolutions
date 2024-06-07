@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
 # Array
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
@@ -126,3 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
+# Trie
+|  |
+| ------- |
+| [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
