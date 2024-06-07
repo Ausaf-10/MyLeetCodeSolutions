@@ -16,11 +16,8 @@ public:
         return cnt;
     }
     long long countSubarrays(vector<int>& arr, int k) {
-        int maxi = *max_element(arr.begin(), arr.end());
         ll n = arr.size();
-        unordered_map<int, int> mp;
-        for (auto it : arr) mp[it]++;
-        int freq = mp[maxi];
-        return atMost(arr, freq) - atMost(arr, k-1);
+        ll tot = n*1ll*(n+1)/2;
+        return tot - atMost(arr, k-1);
     }
 };
