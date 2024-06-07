@@ -5,7 +5,7 @@ public:
         unordered_map<int, int> mp;
         while (j<n){
             mp[arr[j]]++;
-            while (mp.size() > 2 && i<j){
+            while (mp.size() > 2 && i<=j){
                 mp[arr[i]]--;          
                 if (mp[arr[i]] == 0) mp.erase(arr[i]);      
                 i++;
