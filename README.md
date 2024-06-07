@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2227-sum-of-subarray-ranges) |
+| [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
 # Stack
 |  |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
+| [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 # Design
 |  |
 | ------- |
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
+| [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 # Ordered Set
 |  |
 | ------- |
