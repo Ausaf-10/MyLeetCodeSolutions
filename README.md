@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
+| [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
