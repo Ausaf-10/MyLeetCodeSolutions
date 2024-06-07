@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 # Array
 |  |
 | ------- |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 # Ordered Set
 |  |
@@ -129,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 # Trie
 |  |
 | ------- |
