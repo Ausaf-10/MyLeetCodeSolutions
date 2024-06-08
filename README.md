@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Prefix Sum
 |  |
 | ------- |
+| [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
 | [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
@@ -102,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
@@ -162,3 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Math
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
