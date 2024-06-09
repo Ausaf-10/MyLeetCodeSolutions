@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
+| [0735-asteroid-collision](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0735-asteroid-collision) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0155-min-stack) |
 | [0316-remove-duplicate-letters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0316-remove-duplicate-letters) |
 | [0394-decode-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0394-decode-string) |
+| [0735-asteroid-collision](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0735-asteroid-collision) |
 | [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
@@ -169,3 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
+# Simulation
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0735-asteroid-collision) |
