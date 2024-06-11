@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
+| [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 # Ordered Set
@@ -142,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
 # Sliding Window
 |  |
@@ -214,3 +217,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
