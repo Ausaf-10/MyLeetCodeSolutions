@@ -1,24 +1,21 @@
 class Solution {
 public:
-    bool isNStraightHand(vector<int>& arr, int groupSize) {
+    bool isNStraightHand(vector<int>& arr, int k) {
         int n = arr.size();
-        map<int,int> mp;
+        map<int, int> mp;
         for (auto it : arr) mp[it]++;
-        int size = 0;
-        while (mp.size()!=0){
-            vector<int> vec;
-            for (auto it : mp){
-                int number = it.first; mp[number]--;
-                if (mp[number] == 0) mp.erase(number);
-                if (vec.empty() || (!vec.empty() && vec.back() + 1 == number)){
-                    vec.push_back(number);
+        for (auto& it : mp){
+            int ele = it.first, freq = it.second;
+            if (freq > 0){
+                for (int x=0; x<k; x++){
+                    if (mp[x+ele] >= freq){
+                        mp[x+ele]-=freq;
+                    }
+                    else return false;
                 }
-                else return false;
-                if (vec.size() == groupSize) break;
             }
-            size = vec.size();
+            
         }
-        if (size != groupSize) return false;
         return true;
     }
 };
