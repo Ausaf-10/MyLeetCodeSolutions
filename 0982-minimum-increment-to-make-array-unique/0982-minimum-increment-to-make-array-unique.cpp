@@ -2,26 +2,29 @@ class Solution {
 public:
     int minIncrementForUnique(vector<int>& arr) {
         int n = arr.size();
-        vector<int> ans(1000000, 0);
-        unordered_map<int ,int> mp;
-        for (auto it : arr){
-            mp[it]++;
-            ans[it]++;
-        }
-
-        int res = 0;
-        for (auto it : mp){
-            if (it.second == 1) continue;
-            int freq = it.second, ele = it.first, cnt = 0;
-            for (int j=ele+1; j<ans.size(); j++){
-                if (ans[j] == 0){
-                    res += j-ele;
-                    ans[j] = 1;
-                    cnt++;
-                }
-                if (cnt == freq-1) break;
+        vector<int> freq(1000000, 0);
+        for (auto it : arr) freq[it]++;
+        int ans = 0;
+        sort(arr.begin(), arr.end());
+        int i = 0, j = 0;
+        while (i < n){
+            if (arr[i] > j){
+                j++;
+                continue;
+            }
+            if (freq[arr[i]] == 1){
+                i++;
+                continue;
+            }
+            if (freq[j] == 0){
+                freq[j] = 1; freq[arr[i]]--;
+                ans += abs(j - arr[i]);
+                i++,j++;
+            }
+            else{
+                j++;
             }
         }
-        return res;
+        return ans;
     }
 };
