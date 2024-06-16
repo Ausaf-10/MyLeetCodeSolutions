@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0016-3sum-closest) |
 | [0042-trapping-rain-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0344-reverse-string) |
@@ -30,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0016-3sum-closest) |
 | [0042-trapping-rain-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
@@ -161,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0016-3sum-closest) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
