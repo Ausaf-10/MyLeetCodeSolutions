@@ -1,20 +1,21 @@
-using ll = long long int;
 class Solution {
 public:
     bool checkSubarraySum(vector<int>& arr, int k) {
-        unordered_map<ll,ll> mp;
-        ll sum = 0;
-        for (ll i=0; i<arr.size(); i++){
+        unordered_map<int,int> mp;
+        int sum = 0, cnt = 0;
+        int n = arr.size();
+        for (int i=0; i<n; i++){
             sum+=arr[i];
-            ll rem = sum % k;
+            int rem = sum % k;
             if (rem == 0){
-                if (i+1>=2) return true;
+                if (i + 1 >= 2) return true;
             }
             if (mp.find(rem) != mp.end()){
-                ll len = i- mp[rem];
+                int len = i - mp[rem];
                 if (len >= 2) return true;
             }
-            if (mp.find(rem) == mp.end()) mp[rem] = i;
+            if (mp.find(rem) == mp.end())
+                mp[rem] = i;
         }
         return false;
     }
