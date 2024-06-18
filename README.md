@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
@@ -152,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0931-maximum-frequency-stack](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0931-maximum-frequency-stack) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Linked List
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 # Queue
 |  |
@@ -264,3 +267,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0054-spiral-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
+# Binary Search
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
+# Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
+# Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
+# Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
