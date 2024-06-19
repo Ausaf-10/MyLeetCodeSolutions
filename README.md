@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
+| [0793-swap-adjacent-in-lr-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0793-swap-adjacent-in-lr-string) |
 # String
 |  |
 | ------- |
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0451-sort-characters-by-frequency) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0778-reorganize-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0778-reorganize-string) |
+| [0793-swap-adjacent-in-lr-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0793-swap-adjacent-in-lr-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
