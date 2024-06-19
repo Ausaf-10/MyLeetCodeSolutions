@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0525-contiguous-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0735-asteroid-collision) |
@@ -285,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0035-search-insert-position) |
 | [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 # Binary Indexed Tree
 |  |
 | ------- |
