@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2227-sum-of-subarray-ranges) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -303,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 # Binary Indexed Tree
 |  |
 | ------- |
