@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0162-find-peak-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0162-find-peak-element) |
 | [0217-contains-duplicate](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
@@ -304,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0035-search-insert-position) |
+| [0162-find-peak-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
