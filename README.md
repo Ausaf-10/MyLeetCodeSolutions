@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
 | [0793-swap-adjacent-in-lr-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0793-swap-adjacent-in-lr-string) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 # String
 |  |
 | ------- |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2227-sum-of-subarray-ranges) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
 # Sliding Window
 |  |
@@ -305,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0882-peak-index-in-a-mountain-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 # Binary Indexed Tree
 |  |
 | ------- |
