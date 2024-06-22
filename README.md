@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0054-spiral-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 # Binary Search
 |  |
 | ------- |
@@ -307,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0907-koko-eating-bananas) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 # Binary Indexed Tree
