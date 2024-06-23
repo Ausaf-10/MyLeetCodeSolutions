@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0076-minimum-window-substring) |
+| [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
 | [0316-remove-duplicate-letters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0394-decode-string) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0146-lru-cache) |
+| [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
 | [0217-contains-duplicate](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
@@ -213,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0076-minimum-window-substring) |
+| [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -331,4 +334,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Bit Manipulation
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
+# Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
+# Hash Function
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
