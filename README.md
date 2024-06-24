@@ -263,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
+| [0319-bulb-switcher](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0319-bulb-switcher) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
@@ -356,3 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
+# Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0319-bulb-switcher) |
