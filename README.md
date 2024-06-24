@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
+| [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
+| [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 # Greedy
@@ -350,3 +352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
+# Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
