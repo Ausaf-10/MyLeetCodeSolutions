@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3265-maximum-good-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3265-maximum-good-subarray-sum) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
+| [3464-maximize-total-cost-of-alternating-subarrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3464-maximize-total-cost-of-alternating-subarrays) |
 # Stack
 |  |
 | ------- |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
+| [3464-maximize-total-cost-of-alternating-subarrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3464-maximize-total-cost-of-alternating-subarrays) |
 # Greedy
 |  |
 | ------- |
