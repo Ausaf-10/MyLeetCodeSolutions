@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0735-asteroid-collision) |
@@ -120,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [3464-maximize-total-cost-of-alternating-subarrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3464-maximize-total-cost-of-alternating-subarrays) |
 # Greedy
 |  |
@@ -129,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0778-reorganize-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0890-lemonade-change) |
@@ -209,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0778-reorganize-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0982-minimum-increment-to-make-array-unique) |
