@@ -361,3 +361,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0319-bulb-switcher) |
+# Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
