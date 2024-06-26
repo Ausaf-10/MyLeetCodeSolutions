@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0648-replace-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0648-replace-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0735-asteroid-collision](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0735-asteroid-collision) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1250-longest-common-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1250-longest-common-subsequence) |
 | [3464-maximize-total-cost-of-alternating-subarrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3464-maximize-total-cost-of-alternating-subarrays) |
 # Greedy
@@ -241,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1138-grumpy-bookstore-owner) |
@@ -364,10 +367,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 # Hash Function
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0187-repeated-dna-sequences) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 # Backtracking
 |  |
 | ------- |
@@ -394,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
