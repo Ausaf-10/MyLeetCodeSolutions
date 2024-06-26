@@ -1,15 +1,18 @@
 class Solution {
 public:
-    int recursion(int indx, bool buy, vector<int>& prices){
-        if (indx == prices.size()) return 0;
-        int profit = 0;
+    int n;
+    int recursion(int indx, bool buy, vector<int>& arr){
+        if (indx == n) return 0;
         if (buy){
-            profit = max(-prices[indx] + recursion(indx+1, !buy, prices), 0 + recursion(indx+1, buy, prices));
+            int buying = -arr[indx] + recursion(indx+1, !buy, arr);
+            int notBuying = 0 + recursion(indx+1, buy, arr);
+            return max(buying, notBuying);
         }
         else{
-            profit = max(prices[indx] + recursion(indx+1, !buy, prices), 0 + recursion(indx+1, buy, prices));
+            int sell = arr[indx] + recursion(indx+1, !buy, arr);
+            int notSell = 0 + recursion(indx+1, buy, arr);
+            return max(sell, notSell);
         }
-        return profit;
     }
 
     int memoization(int indx, bool buy, vector<int>& prices, vector<vector<int>>& dp){
@@ -25,51 +28,30 @@ public:
         return dp[indx][buy] = profit;
     }
 
-    int tabulation(vector<int>& prices){
-        int n = prices.size();
-        vector<vector<int>> dp (n+1, vector<int>(2,-1));
-        dp[n][0] = 0, dp[n][1] = 0;
-        for (int i = n-1; i>=0; i--){
-            for (int j=0; j<2; j++){
-                int profit = 0;
-                if (j){
-                    profit = max(-prices[i] + dp[i+1][!j], 0 + dp[i+1][j]);
+    int tabulation(vector<int>& arr){
+        vector<vector<int>> dp (n+1, vector<int>(2,0));
+        for (int indx=n-1; indx>=0; indx--){
+            for (int buy=0; buy<=1; buy++){
+                if (buy){
+                    int buying = -arr[indx] + dp[indx+1][!buy] ;
+                    int notBuying = 0 + dp[indx+1][buy];
+                    dp[indx][buy] = max(buying, notBuying);
                 }
                 else{
-                    profit = max(prices[i] + dp[i+1][!j], 0 + dp[i+1][j]);
+                    int sell = arr[indx] + dp[indx+1][!buy];
+                    int notSell = 0 + dp[indx+1][buy];
+                    dp[indx][buy] = max(sell, notSell);
                 }
-                dp[i][j] = profit;
             }
-        } 
-
+        }
         return dp[0][1];
     }
-    
-    int spaceOptimization(vector<int>& prices){
-        int n = prices.size();
-        vector<int> prev(2,0);
-        prev[0] = 0, prev[1] = 0;
-        for (int i=n-1; i>=0; i--){
-            vector<int> temp(2,0);
-            for (int j=0; j<2; j++){
-                int profit = 0;
-                if (j){
-                    profit = max(-prices[i] + prev[!j], 0 + prev[j]);
-                }
-                else{
-                    profit = max(prices[i] + prev[!j], 0 + prev[j]);
-                }
-                temp[j] = profit;
-            }
-            prev = temp;
-        }
 
-        return prev[1];
-    }
-
-    int maxProfit(vector<int>& prices) {
-        int n = prices.size();
-        vector<vector<int>> dp (n+1, vector<int>(2,-1));
-        return spaceOptimization(prices);
+    int maxProfit(vector<int>& arr) {
+        n = arr.size();
+        // vector<vector<int>> dp (n+1, vector<int>(2,-1));
+        // return memoization(0, 1, prices, dp);
+        // return recursion(0, 1, arr);
+        return tabulation(arr);
     }
 };
