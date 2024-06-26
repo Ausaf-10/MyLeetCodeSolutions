@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0793-swap-adjacent-in-lr-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0793-swap-adjacent-in-lr-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-find-common-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1044-find-common-characters) |
+| [1250-longest-common-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1250-longest-common-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 # Array
 |  |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0435-non-overlapping-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
+| [1250-longest-common-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1250-longest-common-subsequence) |
 | [3464-maximize-total-cost-of-alternating-subarrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3464-maximize-total-cost-of-alternating-subarrays) |
 # Greedy
 |  |
