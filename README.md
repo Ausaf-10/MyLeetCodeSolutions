@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
 # Recursion
@@ -250,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
+| [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 # Queue
 |  |
 | ------- |
@@ -373,16 +375,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
