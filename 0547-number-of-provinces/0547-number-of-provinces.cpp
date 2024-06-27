@@ -10,7 +10,7 @@ private:
 
             //CHECK FOR ITS NEIGHBOUR
             for (int i=0; i<n; i++){
-                if (vis[i] == 0 && grid[node][i] == 1){
+                if (!vis[i] && grid[node][i] == 1 && i!=node){
                     vis[i]=1;
                     q.push(i);
                 }
