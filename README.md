@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1250-longest-common-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [3464-maximize-total-cost-of-alternating-subarrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3464-maximize-total-cost-of-alternating-subarrays) |
 # Greedy
 |  |
@@ -329,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0054-spiral-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0073-set-matrix-zeroes) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 # Binary Search
 |  |
