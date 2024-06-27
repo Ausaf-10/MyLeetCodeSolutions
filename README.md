@@ -388,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Brainteaser
 |  |
@@ -402,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
@@ -422,6 +424,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [1916-find-center-of-star-graph](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1916-find-center-of-star-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Interactive
@@ -432,3 +435,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0801-is-graph-bipartite) |
