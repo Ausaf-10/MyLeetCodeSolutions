@@ -1,34 +1,34 @@
 class Solution {
-public:
-    void dfs(unordered_map<int,vector<int>> &mp, vector<int>& vis, int node){
+private:
+    void bfs(int node,int n,vector<vector<int>> &grid, vector<int> &vis){
+        queue<int> q;
+        q.push(node);
         vis[node] = 1;
-        for (auto it : mp[node]){
-            if (!vis[it]){
-                dfs(mp,vis,it);
-            }   
-        }
-        return ;
-    }
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size(), m = isConnected[0].size();
+        while (!q.empty()){
+            int node = q.front();
+            q.pop();
 
-        unordered_map<int,vector<int>> mp;
-        for (int i=0; i<n; i++){
-            for (int j=0; j<m; j++){
-                if (isConnected[i][j] == 1 && i!=j){
-                    mp[i].push_back(j);
+            //CHECK FOR ITS NEIGHBOUR
+            for (int i=0; i<n; i++){
+                if (vis[i] == 0 && grid[node][i] == 1){
+                    vis[i]=1;
+                    q.push(i);
                 }
             }
         }
-        int cnt = 0;
-        vector<int> vis(n,0);
-        for (int i=0; i<n; i++){
-            if (!vis[i]){
+        return ;
+    }
+public:
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int V = isConnected.size();
+        vector<int> vis (V,0);
+        int cnt=0;
+        for (int i=0; i<V; i++){
+            if (vis[i] == 0){
+                bfs(i,V,isConnected,vis);
                 cnt++;
-                dfs(mp, vis, i);
             }
         }
-
         return cnt;
     }
 };
