@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1985-maximum-subarray-min-product](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1985-maximum-subarray-min-product) |
+| [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2227-sum-of-subarray-ranges](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2227-sum-of-subarray-ranges) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -291,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0357-count-numbers-with-unique-digits](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0357-count-numbers-with-unique-digits) |
 | [0523-continuous-subarray-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0523-continuous-subarray-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
+| [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Simulation
 |  |
 | ------- |
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
+| [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Counting Sort
 |  |
 | ------- |
@@ -385,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
+| [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Brainteaser
 |  |
 | ------- |
@@ -400,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
+| [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Binary Search Tree
 |  |
 | ------- |
@@ -418,6 +423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
 | [1916-find-center-of-star-graph](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1916-find-center-of-star-graph) |
+| [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 # Interactive
 |  |
 | ------- |
