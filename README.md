@@ -384,6 +384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
+| [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
 # Brainteaser
 |  |
 | ------- |
@@ -396,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Depth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
@@ -414,8 +416,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
 | [1916-find-center-of-star-graph](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1916-find-center-of-star-graph) |
 # Interactive
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0374-guess-number-higher-or-lower) |
+# Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
