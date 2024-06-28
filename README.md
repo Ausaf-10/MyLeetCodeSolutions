@@ -153,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1285-balance-a-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1285-balance-a-binary-search-tree) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1792-find-the-most-competitive-subsequence) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
 # Recursion
 |  |
@@ -234,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1137-height-checker](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1217-relative-sort-array) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3351-maximize-happiness-of-selected-children) |
 # Sliding Window
@@ -280,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Monotonic Queue
 |  |
 | ------- |
@@ -427,6 +430,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [1916-find-center-of-star-graph](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1916-find-center-of-star-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Interactive
 |  |
 | ------- |
