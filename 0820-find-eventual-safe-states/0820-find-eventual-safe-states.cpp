@@ -1,16 +1,15 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& adj, int node, vector<int>& vis, vector<int>& pathVis, vector<int>& safeNodes){
+    bool dfs(vector<vector<int>>& adj, int node, vector<int>& vis, vector<int>& pathVis){
         vis[node] = 1 , pathVis[node] = 1;
         
         for (auto neighbour : adj[node]){
             if (!vis[neighbour]) {
-                if (dfs(adj,neighbour,vis,pathVis,safeNodes)) return true;
+                if (dfs(adj,neighbour,vis,pathVis)) return true;
             }
-            else if (pathVis[neighbour] == 1) return true;
+            else if (pathVis[neighbour]) return true;
         }
 
-        safeNodes.push_back(node);
         pathVis[node] = 0;
         return false;
     }
@@ -19,18 +18,18 @@ public:
         
         vector<int> vis(V,0);
         vector<int> pathVis(V,0);
-        vector<int> safeNodes;
+        vector<int> notSafeNodes(V,0);
         
         for (int i=0; i<V; i++){
-            if (!vis[i]){
-                if (dfs(graph,i,vis,pathVis,safeNodes));
-            }
+            if (dfs(graph,i,vis,pathVis)) notSafeNodes[i] = 1;
         }
 
-        sort(safeNodes.begin(),safeNodes.end());
+        vector<int> ans;
+        for (int i=0; i<V; i++){
+            if (!notSafeNodes[i]) ans.push_back(i);
+        }
         
-        return safeNodes;
+        return ans;
     }
-
 
 };
