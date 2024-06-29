@@ -1,22 +1,27 @@
 class Solution {
 public:
-    void dfs(int node, int ancestor, vector<int> adj[], vector<vector<int>>& res){
-        for (auto &it : adj[node]){
-            if (res[it].size() == 0 || res[it].back() != ancestor){
-                res[it].push_back(ancestor);
-                dfs(it, ancestor, adj, res);
-            }
+    void dfs(int node, vector<int> adj[], set<int>& st){
+        if (st.empty() || st.find(node) == st.end()){
+            st.insert(node);
+        }
+        else return ;
+        for (auto& it : adj[node]){
+            dfs(it, adj, st);
         }
         return ;
     }
     vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
         vector<int> adj[n];
         for (auto it : edges){
-            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
         }
         vector<vector<int>> res(n);
         for (int i=0; i<n; i++){
-            dfs(i, i, adj, res);
+            set<int> st;
+            dfs(i, adj, st);
+            st.erase(i);
+            vector<int> temp(st.begin(),st.end());
+            res[i] = temp;
         }
         return res;
     }
