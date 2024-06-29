@@ -18,15 +18,15 @@ public:
         
         vector<int> vis(V,0);
         vector<int> pathVis(V,0);
-        vector<int> notSafeNodes(V,0);
         
         for (int i=0; i<V; i++){
-            if (dfs(graph,i,vis,pathVis)) notSafeNodes[i] = 1;
+            if (!vis[i])
+                if (dfs(graph,i,vis,pathVis)) ;
         }
 
         vector<int> ans;
         for (int i=0; i<V; i++){
-            if (!notSafeNodes[i]) ans.push_back(i);
+            if (!pathVis[i]) ans.push_back(i);
         }
         
         return ans;
