@@ -19,17 +19,14 @@ public:
     }
     int memoization(int row, int col, vector<vector<int>>& mat, vector<vector<int>>& dp){
         if (dp[row][col] != -1) return dp[row][col];
-        int original = mat[row][col];
-        mat[row][col] = -1;
         int ans = 0;
         for (int i=0; i<4; i++){
             int nrow = row + dir[i][0], ncol = col + dir[i][1];
-            if (isValid(nrow, ncol, mat, original)){
-                ans = max(ans, memoization(nrow, ncol, mat, dp));
+            if (isValid(nrow, ncol, mat, mat[row][col])){
+                ans = max(ans, 1 + memoization(nrow, ncol, mat, dp));
             }
         }
-        mat[row][col] = original;
-        return dp[row][col] = 1 + ans;
+        return dp[row][col] = ans;
     }
 
     int longestIncreasingPath(vector<vector<int>>& mat) {
@@ -41,6 +38,6 @@ public:
                 maxi = max(maxi, memoization(i,j,mat,dp));
             }
         }
-        return maxi;
+        return maxi+1;
     }
 };
