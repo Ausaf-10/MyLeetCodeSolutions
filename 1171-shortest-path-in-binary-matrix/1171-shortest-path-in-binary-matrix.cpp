@@ -1,36 +1,37 @@
 class Solution {
 public:
-    bool isValid(vector<vector<int>> &grid, int row, int col, int n, int m){
+    int n,m;
+    bool isValid(vector<vector<int>> &grid, int row, int col){
         if (row>=0 && row<n && col>=0 && col<m && grid[row][col] == 0) return true;
         return false;
     }
+    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+        n = grid.size();
+        m = grid[0].size();
 
-    int shortestPathBinaryMatrix(vector<vector<int>>& mat) {
-        int n = mat.size(), m = mat[0].size();
-        
-        if (mat[0][0] || mat[n-1][m-1]) return -1;
-        
-        queue<pair<int,int>> q; q.push({0,0}); mat[0][0] = -1;
-        int dis = 0;
+        vector<vector<int>> distance(n,vector<int> (m,1e9));
+        if (grid[0][0] == 1) return -1;
+        distance[0][0]=1;
+
+        queue<pair<int,pair<int,int>>> q;
+        q.push({1,{0,0}});
         while (!q.empty()){
-            int size = q.size();
-            for (int i=0; i<size; i++){
-                auto node = q.front(); q.pop();
-                int row = node.first, col = node.second;
-                
-                if (row == n-1 && col == m-1) return dis+1;
-                
-                for (int delrow=-1; delrow<=1; delrow++){
-                    for (int delcol=-1; delcol<=1; delcol++){
-                        int nrow = delrow + row, ncol = delcol + col;
-                        if (isValid(mat, nrow, ncol, n, m)){
-                            q.push({nrow,ncol});
-                            mat[nrow][ncol] = -1;
+            auto node = q.front(); q.pop();
+            int dis = node.first, row = node.second.first, col = node.second.second;
+            if (row == n-1 && col == m-1) return dis;
+
+            for (int delrow=-1; delrow<=1; delrow++){
+                for (int delcol=-1; delcol<=1; delcol++){
+                    int nrow = row + delrow;
+                    int ncol = col + delcol;
+                    if (isValid(grid,nrow,ncol)){
+                        if (distance[nrow][ncol] > dis + 1){
+                            distance[nrow][ncol] = dis + 1;
+                            q.push({dis+1,{nrow,ncol}});
                         }
                     }
                 }
             }
-            dis++;
         }
         return -1;
     }
