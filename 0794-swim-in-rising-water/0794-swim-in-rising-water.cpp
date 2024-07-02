@@ -1,45 +1,36 @@
 class Solution {
 public:
+    vector<vector<int>> dir = {{-1,0},{0,1},{1,0},{0,-1}};
     int n,m;
-    bool isValid(vector<vector<int>>& grid, int row, int col, vector<vector<int>>& vis){
-        if (row >= 0 && row < n && col>=0 && col<m && !vis[row][col]) return true;
+    bool isValid(int row, int col){
+        if (row>=0 && row<n && col>=0 && col<m) return true;
         return false;
     }
-    int swimInWater(vector<vector<int>>& grid) {
-        n = grid.size(); m = grid[0].size(); 
-        vector<vector<int>> vis(n, vector<int>(m,0));
+    int swimInWater(vector<vector<int>>& mat) {
+        n = mat.size(), m = mat[0].size();
+        vector<vector<int>> distance(n, vector<int>(m,1e9));
+        priority_queue<pair<int, pair<int,int>>, 
+        vector<pair<int, pair<int,int>>>, greater<pair<int, pair<int,int>>>> pq;
         
-        priority_queue<pair<int,pair<int,int>>,
-        vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>>> minHeap;
-
-        vis[0][0] = 1; 
-        minHeap.push({grid[0][0],{0,0}}); // height -> row -> col!!!
-        while (!minHeap.empty()){
-            auto node = minHeap.top(); 
-            minHeap.pop();
-
-            int time = node.first;
-            int row = node.second.first;
-            int col = node.second.second;
-
-            if (row == n-1 && col == m-1) return time;
-
-            int delrow[4] = {-1,0,1,0};
-            int delcol[4] = {0,1,0,-1};
-
+        int maxi = mat[0][0]; 
+        distance[0][0] = mat[0][0];
+        pq.push({mat[0][0],{0,0}});
+        
+        while (!pq.empty()){
+            auto node = pq.top(); pq.pop();
+            int time = node.first, row = node.second.first, col = node.second.second;
+            if (row == n-1 && col == n-1) return time;
             for (int i=0; i<4; i++){
-                int nrow = delrow[i] + row;
-                int ncol = delcol[i] + col;
-
-                if (isValid(grid,nrow,ncol,vis)){
-                    int element = max(time, grid[nrow][ncol]);
-                    minHeap.push({element,{nrow,ncol}});
-                    vis[nrow][ncol] = 1;
+                int nrow = dir[i][0] + row, ncol = col + dir[i][1];
+                if (isValid(nrow, ncol)){
+                    int diff = max(time, mat[nrow][ncol]);
+                    if (diff < distance[nrow][ncol]){
+                        distance[nrow][ncol] = diff;
+                        pq.push({diff, {nrow,ncol}});
+                    }
                 }
             }
         }
-       
-        return 0;
-    
+        return -1;
     }
 };
