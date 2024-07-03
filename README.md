@@ -512,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
@@ -534,6 +535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -564,6 +566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
