@@ -520,6 +520,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 ## Matrix
 |  |
 | ------- |
@@ -573,4 +574,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
+## Simulation
+|  |
+| ------- |
+| [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 <!---LeetCode Topics End-->
