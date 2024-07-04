@@ -587,9 +587,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2299-merge-nodes-in-between-zeros) |
+| [3336-water-bottles-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3336-water-bottles-ii) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 ## Linked List
 |  |
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2299-merge-nodes-in-between-zeros) |
+## Math
+|  |
+| ------- |
+| [3336-water-bottles-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
