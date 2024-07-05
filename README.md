@@ -597,6 +597,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0002-add-two-numbers) |
+| [0025-reverse-nodes-in-k-group](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -613,4 +614,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0002-add-two-numbers) |
+| [0025-reverse-nodes-in-k-group](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
 <!---LeetCode Topics End-->
