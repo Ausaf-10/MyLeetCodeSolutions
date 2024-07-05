@@ -19,18 +19,17 @@ public:
             int sum = 0;
             if (l1!=NULL){
                 sum+=l1->val;
-                l1=l1->next;
+                l1 = l1->next;
             }
             if (l2!=NULL){
                 sum+=l2->val;
-                l2=l2->next;
+                l2 = l2->next;
             }
             sum+=carry;
             temp->next = new ListNode(sum%10);
             temp = temp->next;
             carry=sum/10;
         }
-
         return dummy->next;
     }
 };
