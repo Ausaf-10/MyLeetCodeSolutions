@@ -495,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0210-course-schedule-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
@@ -639,11 +640,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 ## Binary Tree
 |  |
 | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 <!---LeetCode Topics End-->
