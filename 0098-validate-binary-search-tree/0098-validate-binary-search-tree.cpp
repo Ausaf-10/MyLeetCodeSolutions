@@ -21,6 +21,6 @@ public:
         return lt && rt;
     }
     bool isValidBST(TreeNode* root) {
-        return validBST(root,LONG_MIN,LONG_MAX);
+        return validBST(root,LLONG_MIN,LLONG_MAX);
     }
 };
