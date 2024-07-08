@@ -10,13 +10,18 @@
  * };
  */
 class Solution {
-public:
-    
-    TreeNode* invertTree(TreeNode* root) {
-        if (root == NULL) return root;
-        TreeNode* lt = invertTree(root->left);
-        TreeNode* rt = invertTree(root->right);
+public: 
+    void solve(TreeNode* root){
+        if (!root) return ;
+        TreeNode* lt = root->left, *rt = root->right;
         root->left = rt, root->right = lt;
+        solve(root->left);
+        solve(root->right);
+        return ;
+    }
+    TreeNode* invertTree(TreeNode* root) {
+        if (!root) return root; 
+        solve(root);
         return root;
     }
 };
