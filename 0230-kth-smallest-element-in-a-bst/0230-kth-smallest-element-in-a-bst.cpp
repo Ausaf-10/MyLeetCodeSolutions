@@ -18,8 +18,8 @@ public:
         if (cnt == k) return root;
 
         TreeNode* rt = inorder(root->right,k,cnt);
-        if (lt) return lt;
-        return rt;
+        if (!lt) return rt;
+        return lt;
     }
     int kthSmallest(TreeNode* root, int k) {
         int cnt = 0;
