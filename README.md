@@ -484,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0098-validate-binary-search-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0210-course-schedule-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
@@ -499,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0210-course-schedule-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0226-invert-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0744-network-delay-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0744-network-delay-time) |
@@ -656,6 +658,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0226-invert-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0955-complete-binary-tree-inserter](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0955-complete-binary-tree-inserter) |
@@ -666,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0226-invert-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0955-complete-binary-tree-inserter](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0955-complete-binary-tree-inserter) |
