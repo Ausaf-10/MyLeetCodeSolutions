@@ -535,6 +535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1293-three-consecutive-odds](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -597,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
+| [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Union Find
 |  |
@@ -636,6 +638,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
+| [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Recursion
 |  |
