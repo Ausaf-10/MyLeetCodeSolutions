@@ -446,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Graph
@@ -622,6 +623,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Union Find
 |  |
@@ -667,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Recursion
 |  |
