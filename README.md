@@ -477,6 +477,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
+| [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -562,6 +563,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2176-parallel-courses-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2176-parallel-courses-iii) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 ## Matrix
@@ -643,6 +645,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2645-pass-the-pillow) |
+| [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 | [3336-water-bottles-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3336-water-bottles-ii) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 ## Linked List
@@ -670,6 +673,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Recursion
 |  |
