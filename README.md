@@ -581,6 +581,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -705,6 +706,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0098-validate-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0098-validate-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -720,6 +722,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0098-validate-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0098-validate-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -743,6 +746,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0098-validate-binary-search-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## String Matching
@@ -756,6 +760,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0813-all-paths-from-source-to-target) |
 ## Minimum Spanning Tree
 |  |
