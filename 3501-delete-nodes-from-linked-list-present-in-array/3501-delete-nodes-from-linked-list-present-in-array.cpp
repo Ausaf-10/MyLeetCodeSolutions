@@ -17,11 +17,12 @@ public:
         ListNode* temp = dummy;
         while (head!=NULL){
             if (st.find(head->val) == st.end()){
-                temp->next = new ListNode(head->val);
+                temp->next = head;
                 temp = temp->next;
             }
             head = head->next;
         }
+        temp->next = NULL;
         return dummy->next;
 
     }
