@@ -561,6 +561,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2176-parallel-courses-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2176-parallel-courses-iii) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
@@ -605,6 +606,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 ## Two Pointers
@@ -707,6 +709,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0955-complete-binary-tree-inserter](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0955-complete-binary-tree-inserter) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
@@ -719,6 +722,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
 | [0955-complete-binary-tree-inserter](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0955-complete-binary-tree-inserter) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Divide and Conquer
 |  |
 | ------- |
