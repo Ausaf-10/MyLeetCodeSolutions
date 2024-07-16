@@ -558,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
@@ -688,6 +689,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
@@ -732,6 +734,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
+| [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0930-all-possible-full-binary-trees) |
 | [0955-complete-binary-tree-inserter](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0955-complete-binary-tree-inserter) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
@@ -753,6 +756,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0617-merge-two-binary-trees) |
+| [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0930-all-possible-full-binary-trees) |
 | [0955-complete-binary-tree-inserter](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0955-complete-binary-tree-inserter) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
@@ -762,6 +766,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 ## Queue
 |  |
 | ------- |
@@ -790,4 +795,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 <!---LeetCode Topics End-->
