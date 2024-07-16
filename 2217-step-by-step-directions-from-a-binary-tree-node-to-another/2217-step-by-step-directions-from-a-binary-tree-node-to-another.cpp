@@ -22,9 +22,10 @@ public:
     TreeNode* getNode(TreeNode* root, int startValue) {
         if (!root) return nullptr;
         if (root->val == startValue) return root;
-        TreeNode* left = getNode(root->left, startValue);
-        if (left) return left;
-        return getNode(root->right, startValue);
+        TreeNode* lt = getNode(root->left, startValue);
+        TreeNode* rt = getNode(root->right, startValue);
+        if (lt) return lt;
+        return rt;
     }
     bool solve(TreeNode* root, int &destValue, unordered_map<TreeNode*, TreeNode*> &mp, 
         string& path, unordered_set<int> &vis){
