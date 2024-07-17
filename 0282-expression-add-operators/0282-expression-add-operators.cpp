@@ -1,33 +1,35 @@
 using ll = long long int;
 class Solution {
 public:
-    int target, n;
-    string s;
-    void recursion(int indx, string path, vector<string>& ans, ll resultSoFar, ll prevNo){
+    int n, target;
+    void fun(int indx, string& s, string path, vector<string> &ans, ll resultSoFar,ll prev){
         if (indx == n){
-            if (target == resultSoFar) ans.push_back(path);
+            if (resultSoFar == target){
+                ans.push_back(path);
+            }
             return ;
         }
         for (int i=indx; i<n; i++){
-            ll curNum = stoll(s.substr(indx, i-indx+1));
+            string str = s.substr(indx, i-indx+1);
+            ll curNo = stoll(str);
             if (s[indx] == '0' && i-indx+1 >= 2) return;
             if (indx == 0){
-                recursion(i+1, path + to_string(curNum), ans, curNum, curNum);
+                fun(i+1, s, path+to_string(curNo), ans, curNo, curNo);
             }
             else{
-                recursion(i+1, path + "+" + to_string(curNum), ans, resultSoFar+curNum, curNum);
-                recursion(i+1, path + "-" + to_string(curNum), ans, resultSoFar-curNum, -curNum);
-                recursion(i+1, path + "*" + to_string(curNum), ans, resultSoFar-prevNo+curNum*prevNo, curNum*prevNo);
-            }
+                fun(i+1, s, path+'+'+ to_string(curNo), ans, resultSoFar + curNo, curNo);
+                fun(i+1, s, path+'-'+ to_string(curNo), ans, resultSoFar - curNo, -curNo);
+                fun(i+1, s, path+'*'+ to_string(curNo), ans, (resultSoFar-prev)+(prev*curNo), prev*curNo);
+            }   
         }
-        return ;
         
+        return ;
     }
-    vector<string> addOperators(string num, int T) {
-        target = T, s = num, n = num.size();
+    vector<string> addOperators(string s, int T) {
+        n = s.size(), target = T;
         vector<string> ans;
         string path;
-        recursion(0, path, ans, 0, 0);
+        fun(0, s, path, ans, 0, 0);
         return ans;
     }
 };
