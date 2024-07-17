@@ -1,28 +1,30 @@
 class Solution {
 public:
     int n;
-    int solve(vector<int>& arr, int var_sum){
+    int solve(int var_sum, vector<int>& arr){
         if (var_sum == 0) return 1;
-        int cnt = 0;
+        int ans = 0;
         for (int i=0; i<n; i++){
             if (arr[i] > var_sum) continue;
-            cnt += solve(arr, var_sum-arr[i]);
+            ans += solve(var_sum-arr[i], arr);
         }
-        return cnt;
+        return ans;
     }
-    int memoization(vector<int>& arr, int var_sum, vector<int>& dp){
-        if (var_sum == 0) return 1;
-        if (dp[var_sum] != -1) return dp[var_sum];
-        int cnt = 0;
-        for (int i=0; i<n; i++){
-            if (arr[i] > var_sum) continue;
-            cnt += memoization(arr, var_sum-arr[i], dp);
+    int tabulation(vector<int>& arr, int target){
+        vector<int> dp(target+1, 0);
+        dp[0] = 1;
+        for (int var_sum = 1; var_sum<=target; var_sum++){
+            long long ans = 0;
+            for (int i=0; i<n; i++){
+                if (arr[i] > var_sum) continue;
+                ans = ans + dp[var_sum-arr[i]];
+            }
+            dp[var_sum] = ans;
         }
-        return dp[var_sum] = cnt;
+        return dp[target];
     }
     int combinationSum4(vector<int>& arr, int target) {
         n = arr.size();
-        vector<int> dp(target+1, -1);
-        return memoization(arr, target, dp);
+        return tabulation(arr, target);
     }
 };
