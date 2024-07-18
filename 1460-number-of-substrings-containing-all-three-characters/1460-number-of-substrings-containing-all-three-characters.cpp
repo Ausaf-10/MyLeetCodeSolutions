@@ -1,14 +1,26 @@
 class Solution {
 public:
-    int numberOfSubstrings(string s) {
-        int n = s.size(), ans = 0;
-        vector<int> hash(3,-1);
-        for (int i=0; i<n; i++){
-            hash[s[i]-'a'] = i;
-            if (hash[0]==-1 || hash[1]==-1 || hash[2]==-1) continue;
-            int indx = min(hash[0], min(hash[1], hash[2]));
-            ans += 1 + indx;
+    int n;
+    int atMost(string& arr, int k){
+        if (k < 0) return 0;
+        int i=0,j=0,cnt=0;
+        unordered_map<char,int> mp;
+        while (j < n){
+            mp[arr[j]]++;
+            while (mp.size() > k){
+                mp[arr[i]]--;
+                if (mp[arr[i]] == 0) mp.erase(arr[i]);
+                i++;
+            }
+            if(mp.size() <= k){
+                cnt+=(j-i+1);
+            } 
+            j++;
         }
-        return ans;
+        return cnt;
+    }
+    int numberOfSubstrings(string s) {
+        n = s.size();
+        return n*1ll*(n+1)/2 - atMost(s,2);
     }
 };
