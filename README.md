@@ -630,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
@@ -654,6 +655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0282-expression-add-operators](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0282-expression-add-operators) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -837,6 +839,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0239-sliding-window-maximum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
