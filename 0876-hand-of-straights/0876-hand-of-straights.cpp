@@ -2,19 +2,26 @@ class Solution {
 public:
     bool isNStraightHand(vector<int>& arr, int k) {
         int n = arr.size();
-        map<int, int> mp;
-        for (auto it : arr) mp[it]++;
-        for (auto& it : mp){
-            int ele = it.first, freq = it.second;
-            if (freq > 0){
-                for (int x=0; x<k; x++){
-                    if (mp[x+ele] >= freq){
-                        mp[x+ele]-=freq;
+        sort(arr.begin(), arr.end());
+        vector<int> vis(n,0);
+        for (int i=0; i<n; i++){
+            if (!vis[i]){
+                vector<int> temp;
+                temp.push_back(arr[i]);
+                bool flag = false; 
+                if (temp.size() == k) flag = true;
+                for (int j=i+1; j<n; j++){
+                    if (!vis[j] && arr[j]-1 == temp.back()){
+                        vis[j] = 1;
+                        temp.push_back(arr[j]);
+                        if (temp.size() == k){
+                            flag = true;
+                            break;
+                        }
                     }
-                    else return false;
                 }
+                if (!flag) return false;
             }
-            
         }
         return true;
     }
