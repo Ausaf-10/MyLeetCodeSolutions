@@ -1,33 +1,62 @@
 class Solution {
 public:
-    bool checkValidString(string str) {
-        int n = str.size(), cnt = 0;
-        stack<int> stk; unordered_map<int,int> mp;
-        for (int i=0; i<n; i++){
-            char ch = str[i];
-            if (ch == '*'){
-                cnt++;
-                mp[i]++;
+    int n;
+    bool solve(int indx, int open, string& s){
+        if (indx >= n){
+            if (open == 0) return true;
+            return false;
+        }
+        char ch = s[indx];
+        bool left = false, right = false, up = false;
+        if (ch == '('){
+            left = solve(indx+1, open+1, s);
+        }
+        else if (ch == ')'){
+            if (open > 0){
+                right = solve(indx+1, open-1, s);
             }
-            else if (ch == '(') stk.push(i);
-            else{
-                if (!stk.empty()) stk.pop();
-                else{
-                    if (cnt > 0) cnt--;
-                    else return false;
+        }
+        else{
+            left = solve(indx+1, open+1, s);
+            if (open > 0){
+                right = solve(indx+1, open-1, s);
+            }
+            up = solve(indx+1, open, s);
+        }
+        return left || up || right;
+    }
+    
+    bool tabulation(string& s){
+        vector<vector<bool>> dp(n+1, vector<bool>(n+1, false));
+        dp[n][0] = true;
+        for (int indx=n-1; indx>=0; indx--){
+            for (int open = 0; open<=n; open++){
+                char ch = s[indx];
+                bool left = false, right = false, up = false;
+                if (ch == '('){
+                    left = dp[indx+1][open+1];
                 }
+                else if (ch == ')'){
+                    if (open > 0){
+                        right = dp[indx+1][open-1];
+                    }
+                }
+                else{
+                    left = dp[indx+1][open+1];
+                    if (open > 0){
+                        right = dp[indx+1][open-1];
+                    }
+                    up = dp[indx+1][open];
+                }
+                dp[indx][open] = left || up || right;
             }
         }
-        if (stk.empty()) return true;
-        if (mp.size() < stk.size()) return false;
-        while (!stk.empty()){
-            int indx = stk.top(); 
-            int asteriskIndx = mp.begin()->first;
-            if (indx > asteriskIndx) return false;
-            stk.pop();
-            mp.erase(asteriskIndx);
-        }
-        return true;
+        return dp[0][0];
+    }
 
+    bool checkValidString(string s) {
+        n = s.size();
+        // return solve(0, 0, s);
+        return tabulation(s);
     }
 };
