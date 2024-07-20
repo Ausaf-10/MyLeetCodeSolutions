@@ -1,62 +1,55 @@
 class Solution {
 public:
     int n;
-    bool solve(int indx, int open, string& s){
-        if (indx >= n){
+    bool recursion(int indx, int open, string str){
+        if (indx == n){
             if (open == 0) return true;
             return false;
         }
-        char ch = s[indx];
-        bool left = false, right = false, up = false;
-        if (ch == '('){
-            left = solve(indx+1, open+1, s);
+        if (str[indx] == '('){
+            return recursion(indx+1, open+1, str);
         }
-        else if (ch == ')'){
-            if (open > 0){
-                right = solve(indx+1, open-1, s);
-            }
+        else if (str[indx] == ')'){
+            if (open > 0) return recursion(indx+1, open-1, str);
+            return false;
         }
-        else{
-            left = solve(indx+1, open+1, s);
-            if (open > 0){
-                right = solve(indx+1, open-1, s);
-            }
-            up = solve(indx+1, open, s);
-        }
-        return left || up || right;
-    }
     
-    bool tabulation(string& s){
-        vector<vector<bool>> dp(n+1, vector<bool>(n+1, false));
-        dp[n][0] = true;
-        for (int indx=n-1; indx>=0; indx--){
-            for (int open = 0; open<=n; open++){
-                char ch = s[indx];
-                bool left = false, right = false, up = false;
-                if (ch == '('){
-                    left = dp[indx+1][open+1];
-                }
-                else if (ch == ')'){
-                    if (open > 0){
-                        right = dp[indx+1][open-1];
-                    }
-                }
-                else{
-                    left = dp[indx+1][open+1];
-                    if (open > 0){
-                        right = dp[indx+1][open-1];
-                    }
-                    up = dp[indx+1][open];
-                }
-                dp[indx][open] = left || up || right;
-            }
-        }
-        return dp[0][0];
+        bool openBracket = recursion(indx+1, open+1, str);
+        bool closeBracket = false;
+        if (open > 0) closeBracket = recursion(indx+1, open-1, str);
+        bool empty = recursion(indx+1, open, str);
+        return openBracket || closeBracket || empty;
+        
     }
 
-    bool checkValidString(string s) {
-        n = s.size();
-        // return solve(0, 0, s);
-        return tabulation(s);
+    bool memoization(int indx, int open, string str, vector<vector<int>>& dp){
+        if (indx == n){
+            if (open == 0) return true;
+            return false;
+        }
+        
+        if (dp[indx][open] != -1) return dp[indx][open];
+
+        if (str[indx] == '('){
+            return dp[indx][open] = memoization(indx+1, open+1, str, dp);
+        }
+        else if (str[indx] == ')'){
+            if (open > 0) return dp[indx][open] = memoization(indx+1, open-1, str, dp);
+            return false;
+        }
+    
+        bool openBracket = memoization(indx+1, open+1, str, dp);
+        bool closeBracket = false;
+        if (open > 0) closeBracket = memoization(indx+1, open-1, str, dp);
+        bool empty = memoization(indx+1, open, str, dp);
+        return dp[indx][open] = openBracket || closeBracket || empty;
+        
+    }
+
+    bool checkValidString(string str) {
+        n = str.size();
+        vector<vector<int>> dp(n, vector<int>(201, -1));
+        return memoization(0, 0, str, dp);
+        // return recursion(0,0,str);
     }
 };
