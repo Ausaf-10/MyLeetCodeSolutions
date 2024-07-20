@@ -446,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
+| [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -478,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
+| [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
@@ -489,6 +491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
@@ -571,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
+| [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
@@ -642,6 +646,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
+| [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -864,4 +869,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+## Counting
+|  |
+| ------- |
+| [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 <!---LeetCode Topics End-->
