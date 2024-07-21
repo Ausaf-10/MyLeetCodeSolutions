@@ -23,8 +23,13 @@ public:
         dp[n-1] = 1;
         for (int indx=n-2; indx>=0; indx--){
             if(arr[indx] == 0) continue;
+            int flag = 0;
             for (int i=1; i<=arr[indx]; i++){
-                if (indx+i < n && dp[indx+i]) dp[indx] = true;
+                if (indx+i < n && dp[indx+i]){
+                    dp[indx] = true;
+                    flag = 1;
+                    break;
+                }
             }
         }
         return dp[0];
@@ -33,7 +38,7 @@ public:
         n = arr.size();
         vector<int> dp(n, -1);
         // return solve(0, arr);
-        // return tabulation(arr);
-        return memoization(0, arr, dp);
+        return tabulation(arr);
+        // return memoization(0, arr, dp);
     }
 };
