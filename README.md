@@ -445,6 +445,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
@@ -573,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0219-contains-duplicate-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0219-contains-duplicate-ii) |
@@ -623,6 +625,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0096-unique-binary-search-trees) |
