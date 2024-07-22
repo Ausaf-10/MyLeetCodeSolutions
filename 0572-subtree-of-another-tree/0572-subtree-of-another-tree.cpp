@@ -11,26 +11,16 @@
  */
 class Solution {
 public:
-    bool check(TreeNode* root, TreeNode* subRoot){
-        if (root == NULL || subRoot == NULL){
-            if (!root && !subRoot) return true;
-            return false;
-        } 
-        return root->val == subRoot->val && check(root->left, subRoot->left) && check(root->right, subRoot->right);
-    }
-    bool solve(TreeNode* root, TreeNode* subRoot){
-        if (!root) return false;
-        bool lt,rt,my;
-        if (root->val == subRoot->val){
-            my = check(root, subRoot);
-        }
-        lt = solve(root->left, subRoot);
-        rt = solve(root->right, subRoot);
-        return lt || rt || my;
-        
-        
+    bool isSame(TreeNode* root, TreeNode* subRoot){
+        if (!root || !subRoot) return root == subRoot;
+        return root->val == subRoot->val && isSame(root->left, subRoot->left) && isSame(root->right, subRoot->right);
     }
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-        return solve(root, subRoot);
+        if (!root) return false;
+        bool pick = false;
+        if (root->val == subRoot->val) pick = isSame(root, subRoot);
+        bool Left = isSubtree(root->left, subRoot);
+        bool Right = isSubtree(root->right, subRoot);
+        return Left || Right || pick;
     }
 };
