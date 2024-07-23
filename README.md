@@ -490,6 +490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
@@ -604,6 +605,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1706-min-cost-to-connect-all-points](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -675,6 +677,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
