@@ -17,6 +17,8 @@ public:
         if (root == NULL) return ;
         prefixSum+=root->val;
 
+        if (prefixSum == target) cnt++;
+
         ll rem = prefixSum - target;
         if (mp.find(rem) != mp.end()){
             cnt+=mp[rem];
@@ -37,7 +39,7 @@ public:
 
         unordered_map<ll,ll> mp; // PREFIXX SUM -> OCCURENCE
         ll prefixSum = 0, cnt = 0;
-        mp[0] = 1;
+        // mp[0] = 1;
         solve(root, mp, targetSum, prefixSum, cnt);
         return cnt;
     }
