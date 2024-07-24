@@ -1,67 +1,56 @@
 class Node{
-    public: 
-        int key, value;
-        Node* next, *prev;
-        Node(int k, int v){
-            key = k, value = v;
-            next = prev = NULL;
-        }
+public:
+    Node *next, *prev;
+    int key, val;
+    Node(int k, int v){
+        key = k, val = v;
+        next = prev = NULL;
+    }
 };
 class LRUCache {
 public:
+    unordered_map<int, Node*> mp;
     int cap;
     Node* head, *tail;
-    unordered_map<int, Node*> mp;
     LRUCache(int capacity) {
-        cap = capacity;
         head = new Node(-1,-1);
         tail = new Node(-1,-1);
-        head->next = tail;
-        tail->prev = head;
+        head->next = tail; tail->prev = head;
+        cap = capacity;
     }
-
-    void deleteNode(Node* node){
-        Node* prevNode = node->prev; 
-        Node* nextNode = node->next;
-        prevNode->next = nextNode, nextNode->prev = prevNode;
-        return ;
-    }
-    
-    void addNode(Node* node){
-        Node* afterHead = head->next;
+    void insertAtBeginning(Node* node){
+        Node* afterHead  = head->next;
         head->next = node, node->prev = head;
         node->next = afterHead, afterHead->prev = node;
-        return ;
+        return;
     }
-
-    int get(int getKey) {
-        if (mp.find(getKey) == mp.end()) return -1;
-        Node* node = mp[getKey];
-        int val = node->value;
-        
-        deleteNode(node);
-        addNode(node);
-
-        return val;
+    void removeNode(Node* node){
+        Node* nextNode = node->next, *prevNode = node->prev;
+        nextNode->prev = prevNode, prevNode->next = nextNode;
+        return;
+    }
+    int get(int _key) {
+        if (mp.find(_key) == mp.end()) return -1;
+        Node* node = mp[_key];
+        removeNode(node);
+        insertAtBeginning(node);
+        return node->val;
     }
     
-    void put(int getKey, int val) {
-        if (mp.find(getKey) != mp.end()){
-            Node* node = mp[getKey];
-            mp.erase(getKey);
-            deleteNode(node);
-        }
-
-        if (mp.size() == cap){
-            Node* node = tail->prev;
+    void put(int _key, int _value) {
+        if (mp.find(_key) != mp.end()){
+            Node* node = mp[_key];
+            removeNode(node);
             mp.erase(node->key);
-            deleteNode(node);
         }
-        Node* newNode = new Node(getKey, val);
-        addNode(newNode);
-
-        mp[getKey] = newNode;
-
+        if (cap == mp.size()){
+            Node* node = tail->prev;
+            removeNode(node);
+            mp.erase(node->key);
+        }
+        Node* newNode = new Node(_key, _value);
+        insertAtBeginning(newNode);
+        mp[_key] = newNode;
         return ;
     }
 };
