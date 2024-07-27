@@ -613,6 +613,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1348-maximum-score-of-spliced-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1348-maximum-score-of-spliced-array) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -799,6 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -930,6 +932,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0456-132-pattern](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Prefix Sum
 |  |
 | ------- |
