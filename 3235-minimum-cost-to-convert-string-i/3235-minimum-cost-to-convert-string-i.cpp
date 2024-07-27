@@ -2,37 +2,30 @@ using ll = long long int;
 typedef pair<ll, char> pi;
 class Solution {
 public:
-    void dijkstra(char src, vector<vector<ll>>& dist, unordered_map<char, vector<pair<char, int>>>& mp){
-        priority_queue<pi, vector<pi>, greater<pi>> minHeap;
-        minHeap.push({0, src}); dist[src-'a'][src-'a'] = 0;
-        while (!minHeap.empty()){
-            auto node = minHeap.top(); minHeap.pop();
-            ll dis = node.first;
-            char ch = node.second;
-            for (auto &it : mp[ch]){
-                char neigh = it.first;
-                ll wt = it.second;
-                if (dist[src-'a'][neigh-'a'] > dis + wt){
-                    minHeap.push({dis+wt, neigh});
-                    dist[src-'a'][neigh-'a'] = dis + wt;
-                } 
+    void floydWarshall(vector<vector<ll>>& costMatrix, vector<char>& original, vector<char>& changed, vector<int>& cost){
+        
+        for (int k=0; k<26; k++){
+            for (int i=0; i<26; i++){
+                for (int j=0; j<26; j++){
+                    if (costMatrix[i][k] == 1e15 || costMatrix[k][j] == 1e15) continue;
+                    costMatrix[i][j] = min(costMatrix[i][j], costMatrix[i][k] + costMatrix[k][j]);
+                }
             }
         }
+        
         return ;
     }
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
         vector<vector<ll>> costMatrix(26, vector<ll>(26, 1e15));
-        unordered_map<char, vector<pair<char, int>>> adj;
+        
+        for (int i=0; i<26; i++) costMatrix[i][i] = 0;
         for (int i=0; i<original.size(); i++){
             char u = original[i], v = changed[i];
             int wt = cost[i];
-            adj[u].push_back({v, wt});
+            costMatrix[u-'a'][v-'a'] = min(costMatrix[u-'a'][v-'a'], (ll)wt);
         }
 
-        for (char ch='a'; ch<='z'; ch++){
-            if (adj.find(ch) == adj.end()) continue;
-            dijkstra(ch, costMatrix, adj);
-        }
+        floydWarshall(costMatrix, original, changed, cost);
 
         long long ans = 0;
         for (int i=0; i<source.size(); i++){
