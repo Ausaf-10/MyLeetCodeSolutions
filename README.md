@@ -480,6 +480,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2678-design-graph-with-shortest-path-calculator](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2678-design-graph-with-shortest-path-calculator) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Sorting
 |  |
 | ------- |
@@ -627,6 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -679,6 +681,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2678-design-graph-with-shortest-path-calculator](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2678-design-graph-with-shortest-path-calculator) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -735,6 +738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Union Find
 |  |
