@@ -450,6 +450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1304-longest-happy-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1304-longest-happy-string) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -727,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0282-expression-add-operators](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0282-expression-add-operators) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -794,6 +796,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
