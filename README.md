@@ -489,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
+| [0726-number-of-atoms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0948-sort-an-array) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
@@ -694,6 +695,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0496-next-greater-element-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0496-next-greater-element-i) |
+| [0726-number-of-atoms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -729,6 +731,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0282-expression-add-operators](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0282-expression-add-operators) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0726-number-of-atoms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0726-number-of-atoms) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
@@ -797,6 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0726-number-of-atoms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0726-number-of-atoms) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
