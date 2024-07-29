@@ -616,6 +616,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1333-sort-the-jumbled-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1348-maximum-score-of-spliced-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1348-maximum-score-of-spliced-array) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1511-count-number-of-teams](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1511-count-number-of-teams) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1582-design-browser-history](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1582-design-browser-history) |
@@ -668,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0954-maximum-sum-circular-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1348-maximum-score-of-spliced-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1348-maximum-score-of-spliced-array) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1511-count-number-of-teams](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1511-count-number-of-teams) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2176-parallel-courses-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2176-parallel-courses-iii) |
 | [2397-count-number-of-ways-to-place-houses](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2397-count-number-of-ways-to-place-houses) |
@@ -993,4 +995,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0948-sort-an-array) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1511-count-number-of-teams](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
