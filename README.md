@@ -611,6 +611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0954-maximum-sum-circular-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1196-filling-bookcase-shelves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1333-sort-the-jumbled-numbers) |
@@ -668,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0930-all-possible-full-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0930-all-possible-full-binary-trees) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0954-maximum-sum-circular-subarray) |
+| [1196-filling-bookcase-shelves](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1196-filling-bookcase-shelves) |
 | [1348-maximum-score-of-spliced-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1348-maximum-score-of-spliced-array) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1511-count-number-of-teams) |
