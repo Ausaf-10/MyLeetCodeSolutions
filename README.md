@@ -639,6 +639,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3515-find-if-digit-game-can-be-won](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Matrix
 |  |
 | ------- |
@@ -798,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2645-pass-the-pillow) |
 | [3336-water-bottles-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3336-water-bottles-ii) |
+| [3515-find-if-digit-game-can-be-won](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Stack
 |  |
 | ------- |
