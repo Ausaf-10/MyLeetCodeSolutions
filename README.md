@@ -635,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3413-find-the-first-player-to-win-k-games-in-a-row](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3413-find-the-first-player-to-win-k-games-in-a-row) |
@@ -754,6 +755,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Union Find
