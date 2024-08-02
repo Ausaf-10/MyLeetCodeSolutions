@@ -605,6 +605,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0456-132-pattern](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0456-132-pattern) |
 | [0485-max-consecutive-ones](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0496-next-greater-element-i) |
+| [0518-coin-change-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0518-coin-change-ii) |
 | [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0729-my-calendar-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0729-my-calendar-i) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
@@ -670,6 +671,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0377-combination-sum-iv](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0377-combination-sum-iv) |
+| [0518-coin-change-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0930-all-possible-full-binary-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0930-all-possible-full-binary-trees) |
