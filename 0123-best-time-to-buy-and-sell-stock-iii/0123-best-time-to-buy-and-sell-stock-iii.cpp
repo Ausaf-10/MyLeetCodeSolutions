@@ -1,42 +1,44 @@
 class Solution {
 public:
     int n;
-    int recursion(int indx, bool buy, int cnt, vector<int>& arr){
-        if (indx == n || cnt == 0) return 0;
+    int recursion(int indx, int buy, vector<int>& prices, int cnt){
+        if (indx == n || cnt == 2) return 0;
+        // ALREADY BOUGHT
         if (buy){
-            int buying = -arr[indx] + recursion(indx+1, !buy, cnt, arr);
-            int notBuying = 0 + recursion(indx+1, buy, cnt, arr);
-            return max(buying, notBuying);
-        }
-        else{
-            int sell = arr[indx] + recursion(indx+1, !buy, cnt-1, arr);
-            int notSell = 0 + recursion(indx+1, buy, cnt, arr);
+            int sell = prices[indx] + recursion(indx+1, !buy, prices, cnt+1);
+            int notSell = 0 + recursion(indx+1, buy, prices, cnt);
             return max(sell, notSell);
         }
+        else{
+            int buyThisDay = -prices[indx] + recursion(indx+1, !buy, prices, cnt);
+            int notBuyThisDay = 0 + recursion(indx+1, buy, prices, cnt);
+            return max(buyThisDay, notBuyThisDay);
+        }
     }
-    int tabulation(vector<int>& arr){
-        vector<vector<vector<int>>> dp (n+1, vector<vector<int>>(2,vector<int>(3,0)));
+    int tabulation(vector<int>& prices){
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(3, 0)));
+        // vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2,vector<int>(3,0)));
         for (int indx=n-1; indx>=0; indx--){
-            for (int buy=0; buy<=1; buy++){
-                for (int cnt=1; cnt<3; cnt++){
+            for (int buy = 0; buy<=1; buy++){
+                for (int cnt = 0; cnt < 2; cnt++){
                     if (buy){
-                        int buying = -arr[indx] + dp[indx+1][!buy][cnt];
-                        int notBuying = 0 + dp[indx+1][buy][cnt];
-                        dp[indx][buy][cnt] = max(buying, notBuying);
-                    }
-                    else{
-                        int sell = arr[indx] + dp[indx+1][!buy][cnt-1];
+                        int sell = prices[indx] + dp[indx+1][!buy][cnt+1];
                         int notSell = 0 + dp[indx+1][buy][cnt];
                         dp[indx][buy][cnt] = max(sell, notSell);
                     }
+                    else{
+                        int buyThisDay = -prices[indx] + dp[indx+1][!buy][cnt];
+                        int notBuyThisDay = 0 + dp[indx+1][buy][cnt];
+                        dp[indx][buy][cnt] = max(buyThisDay, notBuyThisDay);
+                    }
                 }
-                
             }
         }
-        return dp[0][1][2];
+        return dp[0][0][0];
     }
-    int maxProfit(vector<int>& arr) {
-        n = arr.size();
-        return tabulation(arr);
+    int maxProfit(vector<int>& prices) {
+        n = prices.size();
+        // return recursion(0, 0, prices, 0);
+        return tabulation(prices);
     }
 };
