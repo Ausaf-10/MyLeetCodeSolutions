@@ -677,6 +677,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0070-climbing-stairs) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0096-unique-binary-search-trees) |
+| [0115-distinct-subsequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -764,6 +765,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0115-distinct-subsequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0282-expression-add-operators](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0282-expression-add-operators) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0678-valid-parenthesis-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0678-valid-parenthesis-string) |
