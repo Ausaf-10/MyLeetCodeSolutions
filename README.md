@@ -676,6 +676,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0070-climbing-stairs) |
+| [0091-decode-ways](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0115-distinct-subsequences) |
@@ -767,6 +768,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0091-decode-ways](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0282-expression-add-operators](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0282-expression-add-operators) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
