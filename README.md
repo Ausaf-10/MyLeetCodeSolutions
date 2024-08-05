@@ -769,6 +769,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0008-string-to-integer-atoi) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0091-decode-ways](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0115-distinct-subsequences) |
