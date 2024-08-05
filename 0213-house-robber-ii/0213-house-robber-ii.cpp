@@ -1,27 +1,33 @@
 class Solution {
 public:
-    int spaceOptimisation(int start,vector<int> arr, int n){
-        int prev = arr[start], prev2 = 0;
-        for (int i = start + 1; i < n; i++){
-            int pick = arr[i] ;
-            if (i > 1) pick += prev2;
-            int notPick = 0 + prev;
-            int cur = max(pick,notPick);
-            prev2 = prev, prev = cur; 
+    int n;
+    int tabulation(vector<int>& arr){
+        // not including the last guy!!
+        vector<int> dp(n,-1);
+        dp[0] = arr[0];
+        for (int indx = 1; indx<n-1; indx++){
+            int pick = arr[indx];
+            int notPick = 0 + dp[indx - 1];
+            if (indx > 1) pick += dp[indx-2];
+            dp[indx] = max(pick, notPick);
         }
-        return prev;
+        return dp[n-2];
     }
-
+    int tabulation2(vector<int>& arr){
+        // including the last guy
+        vector<int> dp(n,0);
+        dp[1] = arr[1];
+        for (int indx = 2; indx<n; indx++){
+            int pick = arr[indx];
+            int notPick = 0 + dp[indx - 1];
+            if (indx > 1) pick += dp[indx-2];
+            dp[indx] = max(pick, notPick);
+        }
+        return dp[n-1];
+    }
     int rob(vector<int>& nums) {
-        int n = nums.size();
-
-        if (n == 1) return nums[0]; 
-
-        int ans1 = spaceOptimisation(0,nums,n-1);
-    
-        //excluding the first element
-        int ans2 = spaceOptimisation(1,nums,n);
-
-        return max(ans1,ans2);
+        n = nums.size();
+        if (n == 1) return nums[0];
+        return max(tabulation(nums), tabulation2(nums));
     }
 };
