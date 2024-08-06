@@ -596,6 +596,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -984,6 +985,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0051-n-queens) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0216-combination-sum-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0282-expression-add-operators) |
