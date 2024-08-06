@@ -461,6 +461,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2066-add-minimum-number-of-rungs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2066-add-minimum-number-of-rungs) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2379-maximum-total-importance-of-roads) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Graph
 |  |
@@ -795,6 +796,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Union Find
 |  |
@@ -841,6 +843,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-water-bottles](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2645-pass-the-pillow) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3336-water-bottles-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3336-water-bottles-ii) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Stack
