@@ -598,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
+| [0047-permutations-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
@@ -1000,6 +1001,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0051-n-queens) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0216-combination-sum-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0216-combination-sum-iii) |
