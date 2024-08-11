@@ -635,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0954-maximum-sum-circular-subarray) |
+| [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1087-longest-arithmetic-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1087-longest-arithmetic-subsequence) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -757,6 +758,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0726-number-of-atoms) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
+| [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1087-longest-arithmetic-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1087-longest-arithmetic-subsequence) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -1032,6 +1034,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -1043,6 +1046,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
