@@ -491,6 +491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -602,6 +603,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
