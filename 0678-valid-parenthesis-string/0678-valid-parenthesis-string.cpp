@@ -1,55 +1,42 @@
 class Solution {
 public:
     int n;
-    bool recursion(int indx, int open, string str){
-        if (indx == n){
-            if (open == 0) return true;
-            return false;
+    bool recursion(int indx, int open, string& s){
+        if (indx == n) return open == 0;
+        if (s[indx] == '(') return recursion(indx+1, open+1, s);
+        else if (s[indx] == ')'){
+            if (open == 0) return false;
+            return recursion(indx+1, open-1, s);
         }
-        if (str[indx] == '('){
-            return recursion(indx+1, open+1, str);
+        else{
+            bool option1 = recursion(indx+1, open, s);       // empty character
+            bool option2 = recursion(indx+1, open+1, s);    //  open 
+            bool option3 = false;                          // close
+            if (open > 0) option3 = recursion(indx+1, open-1, s);
+            return option1 || option2 || option3;
         }
-        else if (str[indx] == ')'){
-            if (open > 0) return recursion(indx+1, open-1, str);
-            return false;
-        }
-    
-        bool openBracket = recursion(indx+1, open+1, str);
-        bool closeBracket = false;
-        if (open > 0) closeBracket = recursion(indx+1, open-1, str);
-        bool empty = recursion(indx+1, open, str);
-        return openBracket || closeBracket || empty;
-        
     }
 
-    bool memoization(int indx, int open, string str, vector<vector<int>>& dp){
-        if (indx == n){
-            if (open == 0) return true;
-            return false;
+    bool memoization(int indx, int open, string& s, vector<vector<int>>& dp){
+        if (indx == n) return open == 0;
+        if (dp[indx][open]!=-1) return dp[indx][open];
+        if (s[indx] == '(') return dp[indx][open] = memoization(indx+1, open+1, s, dp);
+        else if (s[indx] == ')'){
+            if (open == 0) return false;
+            return dp[indx][open] = memoization(indx+1, open-1, s, dp);
         }
-        
-        if (dp[indx][open] != -1) return dp[indx][open];
-
-        if (str[indx] == '('){
-            return dp[indx][open] = memoization(indx+1, open+1, str, dp);
+        else{
+            bool option1 = memoization(indx+1, open, s, dp);       // empty character
+            bool option2 = memoization(indx+1, open+1, s, dp);    //  open 
+            bool option3 = false;                          // close
+            if (open > 0) option3 = memoization(indx+1, open-1, s, dp);
+            return dp[indx][open] = option1 || option2 || option3;
         }
-        else if (str[indx] == ')'){
-            if (open > 0) return dp[indx][open] = memoization(indx+1, open-1, str, dp);
-            return false;
-        }
-    
-        bool openBracket = memoization(indx+1, open+1, str, dp);
-        bool closeBracket = false;
-        if (open > 0) closeBracket = memoization(indx+1, open-1, str, dp);
-        bool empty = memoization(indx+1, open, str, dp);
-        return dp[indx][open] = openBracket || closeBracket || empty;
-        
     }
-
-    bool checkValidString(string str) {
-        n = str.size();
-        vector<vector<int>> dp(n, vector<int>(201, -1));
-        return memoization(0, 0, str, dp);
-        // return recursion(0,0,str);
+    
+    bool checkValidString(string s) {
+        n = s.size();
+        vector<vector<int>> dp(n+1, vector<int>(n+1, -1));
+        return memoization(0, 0, s, dp);
     }
 };
