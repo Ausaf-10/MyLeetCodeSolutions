@@ -17,7 +17,7 @@ public:
             if (arr[mid] <= target) low = mid + 1;
             else high = mid - 1;
         }
-        return low - 1;
+        return high;
     }
     vector<int> searchRange(vector<int>& arr, int target) {
         n = arr.size();
