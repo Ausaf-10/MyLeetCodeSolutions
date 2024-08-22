@@ -646,6 +646,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1293-three-consecutive-odds](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1348-maximum-score-of-spliced-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1348-maximum-score-of-spliced-array) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1511-count-number-of-teams) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -796,6 +797,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0729-my-calendar-i) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [1087-longest-arithmetic-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1087-longest-arithmetic-subsequence) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
