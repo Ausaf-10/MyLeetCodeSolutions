@@ -1,3 +1,4 @@
+using ll = long long int;
 class Solution {
 public:
     int fun(vector<int>& arr, int d){
@@ -10,20 +11,21 @@ public:
     int smallestDivisor(vector<int>& nums, int k) {
         int n = nums.size();
 
-        int mini = 1;
-        int maxi = *max_element(nums.begin(), nums.end());
+        // int mini = *min_element(nums.begin(), nums.end());
+        ll low = 1;
+        ll high = *max_element(nums.begin(), nums.end());
 
-     
-        int low = mini, high = maxi;
         while (low <= high){
-            int mid = low + (high - low)/2;
-            int reqSum = fun(nums, mid);
-            if (reqSum <= k){
+            ll mid = low + (high - low)/2;
+            // CHECK WHETHER IT IS POSSIBLE OR NOT
+            
+            ll reqTime = fun(nums,mid);
+            
+            if (reqTime<=k){
                 high = mid - 1;
-            } 
+            }
             else low = mid + 1;
         }
-        
         return low;
     }
 };
