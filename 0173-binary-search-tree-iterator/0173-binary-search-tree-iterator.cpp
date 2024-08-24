@@ -1,14 +1,3 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class BSTIterator {
 public:
     void pushAll(TreeNode* root, stack<TreeNode*>& stk){
@@ -26,16 +15,13 @@ public:
     
     int next() {
         TreeNode* node = stk.top(); stk.pop();
-        if (node->right!=NULL){
-            TreeNode*  cur = node->right;
-            pushAll(cur,stk);
-        }
+        if (node->right!=NULL) pushAll(node->right,stk);
         return node->val;
     }
     
     bool hasNext() {
-        if (!stk.empty()) return true;
-        return false;
+        if (stk.empty()) return false;
+        return true;
     }
 };
 
