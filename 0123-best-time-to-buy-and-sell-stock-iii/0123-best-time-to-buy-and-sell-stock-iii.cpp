@@ -17,7 +17,6 @@ public:
     }
     int tabulation(vector<int>& prices){
         vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(3, 0)));
-        // vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2,vector<int>(3,0)));
         for (int indx=n-1; indx>=0; indx--){
             for (int buy = 0; buy<=1; buy++){
                 for (int cnt = 0; cnt < 2; cnt++){
