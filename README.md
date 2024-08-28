@@ -1146,4 +1146,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0173-binary-search-tree-iterator) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
