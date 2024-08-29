@@ -477,6 +477,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0871-keys-and-rooms) |
 | [0922-possible-bipartition](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0922-possible-bipartition) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -552,6 +553,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0871-keys-and-rooms) |
 | [0922-possible-bipartition](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0922-possible-bipartition) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
@@ -773,6 +775,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0816-design-hashset](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0816-design-hashset) |
 | [0876-hand-of-straights](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0876-hand-of-straights) |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1087-longest-arithmetic-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1087-longest-arithmetic-subsequence) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -854,6 +857,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0547-number-of-provinces) |
 | [0794-swim-in-rising-water](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0922-possible-bipartition](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0922-possible-bipartition) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
