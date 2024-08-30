@@ -1169,6 +1169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1670-patients-with-a-condition](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1670-patients-with-a-condition) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1827-invalid-tweets) |
+| [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1908-recyclable-and-low-fat-products) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 <!---LeetCode Topics End-->
