@@ -7,15 +7,11 @@ public:
         }
         int realCnt = myMap.size(), ans = 0;
         for (auto it : words){
-            unordered_map<char, int>wordMap = myMap; 
             bool flag = 0;
             for (auto ch : it){
-                if (wordMap.find(ch) == wordMap.end()){
+                if (myMap.find(ch) == myMap.end()){
                     flag = 1;
                     break;
-                }
-                else{
-                    wordMap[ch]--;
                 }
             }
             if (!flag) ans++;
