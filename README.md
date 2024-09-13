@@ -654,6 +654,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1333-sort-the-jumbled-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1348-maximum-score-of-spliced-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1348-maximum-score-of-spliced-array) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1435-xor-queries-of-a-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1511-count-number-of-teams) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -1078,6 +1079,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
+| [1435-xor-queries-of-a-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -1145,6 +1147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0473-matchsticks-to-square](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0795-k-th-symbol-in-grammar) |
+| [1435-xor-queries-of-a-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Bitmask
 |  |
