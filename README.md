@@ -685,6 +685,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2502-sort-the-people) |
+| [2551-apply-operations-to-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2551-apply-operations-to-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -806,6 +807,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2551-apply-operations-to-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2551-apply-operations-to-an-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -877,6 +879,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2551-apply-operations-to-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2551-apply-operations-to-an-array) |
 | [2645-pass-the-pillow](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2846-robot-collisions) |
 | [3336-water-bottles-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/3336-water-bottles-ii) |
