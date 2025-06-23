@@ -909,6 +909,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0096-unique-binary-search-trees) |
