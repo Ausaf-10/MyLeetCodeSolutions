@@ -1,15 +1,21 @@
+using ll = long long int;
 class Solution {
 public:
-    int reverse(int x) {
-        int rev=0,d;
-        while (x!=0){
-            d=x%10;
-            if ( rev>(INT_MAX/10) || rev<(INT_MIN/10) ){
-                return 0;
-            }
-            rev=rev*10+d;
-            x/=10;
+    ll count (ll n){
+        ll num = n, rev = 0;
+        while (num > 0){
+            ll rem = num % 10;
+            rev = rev*10 + rem;
+            if (rev > INT_MAX) return 0;
+            num/=10;
         }
         return rev;
+    }
+    int reverse(int x) {
+        ll num = x;
+        if (x < 0){
+            return -1 * count(abs(num));
+        }
+        return count (x);
     }
 };
