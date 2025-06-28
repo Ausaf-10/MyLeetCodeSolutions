@@ -495,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
+| [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0646-maximum-length-of-pair-chain) |
@@ -629,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0334-increasing-triplet-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0334-increasing-triplet-subsequence) |
+| [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0377-combination-sum-iv](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0416-partition-equal-subset-sum) |
@@ -778,6 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0146-lru-cache](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0146-lru-cache) |
 | [0219-contains-duplicate-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0219-contains-duplicate-ii) |
+| [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -812,6 +815,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
+| [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0455-assign-cookies) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -822,6 +826,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0300-longest-increasing-subsequence) |
+| [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0456-132-pattern](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0456-132-pattern) |
 | [0729-my-calendar-i](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0729-my-calendar-i) |
