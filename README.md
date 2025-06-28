@@ -681,6 +681,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1803-average-waiting-time) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2035-count-sub-islands](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2035-count-sub-islands) |
