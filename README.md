@@ -614,6 +614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
@@ -723,6 +724,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0091-decode-ways) |
@@ -1058,6 +1060,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
