@@ -1,27 +1,33 @@
 class Solution {
 public:
-    int kadane(vector<int>& arr){
-        int n = arr.size();
-        int maxSum = INT_MIN, curSum = 0;
+    int n;
+    int kadaneMax(vector<int>& arr){
+        int maxi = INT_MIN, s = 0;
         for (int i=0; i<n; i++){
-            curSum+=arr[i];
-            maxSum = max(maxSum, curSum);
-            if (curSum < 0) curSum = 0;
+            s+=arr[i];
+            maxi = max(maxi, s);
+            if (s < 0) s = 0;
         }
-        return maxSum;
+        return maxi;
+    }
+    int kadaneMin(vector<int>& arr){
+        int mini = INT_MAX, s = 0;
+        for (int i=0; i<n; i++){
+            s+=arr[i];
+            mini = min(mini, s);
+            if (s > 0) s = 0;
+        }
+        return mini;
     }
     int maxSubarraySumCircular(vector<int>& arr) {
-        int totSum = 0, n = arr.size();
-        for (auto it : arr) totSum+=it;
-
-        int withoutWrap = kadane(arr);
-
-        for (int i=0; i<n; i++) arr[i]*=-1;
-
-        int withWrap = totSum - (kadane(arr)*-1);
-
-        if (withWrap == 0) return withoutWrap;  // when we have all negatives then this is the answer!
-
-        return max(withoutWrap, withWrap);
+        n = arr.size();
+        int totSum = accumulate(arr.begin(), arr.end(), 0);
+        int maxSum = kadaneMax(arr);
+        int minSum = kadaneMin(arr);
+        int circularSum = totSum - minSum;
+        if (maxSum > 0){
+            return max(maxSum, circularSum);
+        }
+        return maxSum;
     }
 };
