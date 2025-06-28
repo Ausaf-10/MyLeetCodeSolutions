@@ -494,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0056-merge-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
@@ -621,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0189-rotate-array) |
 | [0213-house-robber-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0213-house-robber-ii) |
@@ -784,6 +786,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0146-lru-cache](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0349-intersection-of-two-arrays) |
@@ -1056,6 +1059,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0654-maximum-binary-tree](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0654-maximum-binary-tree) |
 | [0948-sort-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0948-sort-an-array) |
@@ -1152,6 +1156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [1140-distant-barcodes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1140-distant-barcodes) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
