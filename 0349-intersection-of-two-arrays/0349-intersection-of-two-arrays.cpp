@@ -1,15 +1,21 @@
 class Solution {
 public:
-    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+    vector<int> intersection(vector<int>& a, vector<int>& b) {
         vector<int> ans;
-        map<int, int> mp;
-        for (auto &it : nums1){
-            mp[it]++;
-        }
-        for (auto it : nums2){
-            if (mp.find(it) != mp.end()){
-                ans.push_back(it);
-                mp.erase(it);
+        sort(a.begin(), a.end());
+        sort(b.begin(), b.end());
+        int i = 0, j = 0, n = a.size(), m = b.size();
+        while  (i < n && j < m) {
+            if (a[i] == b[j]){
+                if (ans.empty() || !ans.empty() && ans.back() != a[i]){
+                    ans.push_back(a[i]);
+                }
+                i++,j++;
+                
+            } else if (a[i] > b[j]){
+                j++;
+            } else {
+                i++;
             }
         }
         return ans;
