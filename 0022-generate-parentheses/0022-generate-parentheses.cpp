@@ -1,29 +1,24 @@
 class Solution {
 public:
     int n;
-    void fun(int indx, vector<string> &ans, string& ds, int open, int close){
+    void fun(int indx, int open, int close, string path, vector<string>& ans){
         if (indx == 2*n){
-            ans.push_back(ds);
-            return;
+            ans.push_back(path);
+            return ;
         }
         if (open < n){
-            ds.push_back('(');
-            fun(indx+1, ans, ds, open+1, close);
-            ds.pop_back();
+            fun(indx+1, open+1, close, path+"(", ans);
         }
         if (close < open){
-            ds.push_back(')');
-            fun(indx+1, ans, ds, open, close+1);
-            ds.pop_back();
+            fun(indx+1, open, close+1, path+")", ans);
         }
-        
-        return ;
+        return;
     }
     vector<string> generateParenthesis(int N) {
         n = N;
         vector<string> ans;
-        string ds;
-        fun(0, ans, ds, 0, 0);
+        fun(0, 0, 0, "", ans);
         return ans;
+
     }
 };
