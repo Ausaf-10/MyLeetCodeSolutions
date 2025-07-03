@@ -1,49 +1,39 @@
 class Solution {
 public:
-
-    bool isValid(vector<vector<char>>& board, int row, int col, int k,
-     string &word, vector<vector<int>>& vis){
-        if (row>=0 && row<board.size() && col>=0 && col<board[0].size() && board[row][col] == word[k] && vis[row][col] == 0){
-            vis[row][col] = 1;
+    int n,m;
+    bool isPossible(vector<vector<char>>& board, string word, int row, int col, vector<vector<int>>& vis, int indx){
+        if (row >= 0 && row < n && col >= 0 && col < m && !vis[row][col] && board[row][col] == word[indx]){
+            
             return true;
         }
         return false;
     }
-
-    bool solve(vector<vector<char>>& board, int row, int col, int k,
-     string &word, vector<vector<int>>& vis){
+    bool solve(vector<vector<char>>& board, string word, int row, int col, vector<vector<int>>& vis, int indx){
+        if (indx == word.size()) return true;
+        vis[row][col] = 1;
         
-        if (k == word.size()) return true;
-
         int delrow[4] = {-1,0,1,0};
         int delcol[4] = {0,1,0,-1};
+        
         for (int i=0; i<4; i++){
             int nrow = delrow[i] + row;
             int ncol = delcol[i] + col;
-            if (isValid(board, nrow, ncol, k, word, vis)){
-                if (solve(board, nrow, ncol, k+1, word, vis) == true) return true;
+            if (isPossible(board, word, nrow, ncol, vis, indx)){
+                if (solve(board, word, nrow, ncol, vis, indx+1)) return true;
             }
-
-        }
+        }   
+        
         vis[row][col] = 0;
         return false;
     }
-
     bool exist(vector<vector<char>>& board, string word) {
-        int n = board.size();
-        int m = board[0].size();
-
-        vector<vector<int>> vis(n,vector<int>(m,0));
-
-        int k = 1;
-
-        for (int i=0; i<n; i++){
-            for (int j=0; j<m; j++){
+        n = board.size(), m = board[0].size();
+        for (int i=0; i<board.size(); i++){
+            for (int j=0; j<board[0].size(); j++){
+                vector<vector<int>> vis(n, vector<int>(m,0));
                 if (board[i][j] == word[0]){
-                    vis[i][j] = 1;
-                    if (solve(board,i,j,k,word,vis) == true){
-                        return true;
-                    }
+                    // vis[i][j] = 1;
+                    if (solve(board, word, i, j, vis, 1)) return true;
                 }
             }
         }
