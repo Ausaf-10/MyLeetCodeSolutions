@@ -1,39 +1,29 @@
 class Solution {
 public:
     int n,m;
-    bool isPossible(vector<vector<char>>& board, string word, int row, int col, vector<vector<int>>& vis, int indx){
-        if (row >= 0 && row < n && col >= 0 && col < m && !vis[row][col] && board[row][col] == word[indx]){
-            
-            return true;
-        }
-        return false;
-    }
-    bool solve(vector<vector<char>>& board, string word, int row, int col, vector<vector<int>>& vis, int indx){
+    bool solve(vector<vector<char>>& board, string& word, int indx, int i, int j, vector<vector<int>>& vis){
         if (indx == word.size()) return true;
-        vis[row][col] = 1;
+        if (i >= n || j>=m || i < 0 || j < 0 || board[i][j] != word[indx] || vis[i][j]) return false;
+
+        vis[i][j] = 1;
+        vector<int> row = {-1, 0, 1, 0};
+        vector<int> col = {0, 1, 0, -1};
+        for (int dr=0; dr<4; dr++){
+            int nrow = row[dr] + i;
+            int ncol = col[dr] + j;
+                if (solve(board, word, indx+1, nrow, ncol, vis)) return true;
+        }
         
-        int delrow[4] = {-1,0,1,0};
-        int delcol[4] = {0,1,0,-1};
-        
-        for (int i=0; i<4; i++){
-            int nrow = delrow[i] + row;
-            int ncol = delcol[i] + col;
-            if (isPossible(board, word, nrow, ncol, vis, indx)){
-                if (solve(board, word, nrow, ncol, vis, indx+1)) return true;
-            }
-        }   
-        
-        vis[row][col] = 0;
+        vis[i][j] = 0;
         return false;
     }
     bool exist(vector<vector<char>>& board, string word) {
         n = board.size(), m = board[0].size();
-        for (int i=0; i<board.size(); i++){
-            for (int j=0; j<board[0].size(); j++){
-                vector<vector<int>> vis(n, vector<int>(m,0));
+        for (int i=0; i<n; i++){
+            for (int j=0; j<m; j++){
+                vector<vector<int>> vis (n, vector<int>(m,0));
                 if (board[i][j] == word[0]){
-                    // vis[i][j] = 1;
-                    if (solve(board, word, i, j, vis, 1)) return true;
+                    if (solve(board, word, 0, i, j, vis)) return true;
                 }
             }
         }
