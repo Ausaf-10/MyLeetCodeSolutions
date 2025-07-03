@@ -7,10 +7,11 @@ public:
         int cnt=0;  
 
         for (int i=low; i<=mid; i++){
-            while (right <= high && arr[i]>2*(long long)arr[right]) right++;
-            cnt+=(right - (mid+1));
+            while (right <= high && arr[i] > 2*1ll*arr[right]) right++;
+            cnt += (right- (mid+1));
         }
 
+        left = low;
         right = mid + 1;
         while (left <= mid && right <= high){
             if (arr[left] <= arr[right]){
@@ -39,26 +40,13 @@ public:
         return cnt;
 
     }
-    
-    // int countPairs(vector<int>& arr,int low,int mid,int high){
-    //     int cnt = 0,right=mid+1;
-    //     for (int i=low; i<=mid; i++){
-    //         while (right <= high && arr[i]>2*(long long)arr[right]) right++;
-    //         cnt+=(right - (mid+1));
-    //     }
-    //     return cnt;
-    // }
 
     int mergeSort(vector<int>& arr,int low,int high){
-        int cnt=0;
-        if (low < high){
-            int mid = (low+high)/2;
-            cnt+=mergeSort(arr,low,mid);
-            cnt+=mergeSort(arr,mid+1,high);
-            // cnt+=countPairs(arr,low,mid,high);
-            cnt+=merge(arr,low,mid,high);
-        }
-        return cnt;
+        if (low >= high) return 0;
+        int mid = (low+high)/2;
+        int left = mergeSort(arr,low,mid);
+        int right = mergeSort(arr,mid+1,high);
+        return left + right + merge(arr,low,mid,high);
     }
 
     int reversePairs(vector<int>& nums) {
