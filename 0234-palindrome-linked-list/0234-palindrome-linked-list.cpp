@@ -10,37 +10,47 @@
  */
 class Solution {
 public:
-
-    ListNode* getMiddle(ListNode* head){
-        if (head == NULL || head->next == NULL) return head;
-        ListNode* slow = head , *fast = head, *prev = NULL;
-        while (fast!=NULL && fast->next!=NULL){
-            prev = slow, slow=slow->next , fast=fast->next->next;
+    ListNode* reverse(ListNode* node){
+        if (!node || !node->next) return node;
+        ListNode* shead = reverse(node->next);
+        ListNode* after = node->next;
+        after->next = node, node->next = NULL;
+        return shead;
+    }
+    ListNode* getMiddle(ListNode* node){
+        if (!node || !node->next) return node;
+        ListNode* dummy = new ListNode(-1);
+        dummy->next = node;
+        ListNode* slow = dummy, *fast = dummy;
+        while (fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        if (fast == NULL ) return prev; // EVEN LINKED LIST
-        else return slow; // ODDD 
+        if (!fast) return slow;
+        return slow->next;        
     }
-
-    ListNode* reverseList(ListNode* head){
-        if (head == NULL || head->next == NULL) return head;
-       ListNode* shead = reverseList(head->next);
-       ListNode* temp = head->next;
-       temp->next = head;
-       head->next = NULL;
-       return shead;
+    void Print(ListNode* node) {
+        if (!node) return;
+        while (node){
+            cout << node->val << " ";
+            node = node->next;
+        }
+        cout << endl;
+        return;
     }
-
     bool isPalindrome(ListNode* head) {
-        if (head == NULL || head->next == NULL) return head;
+        if (!head || !head->next) return true;
         ListNode* mid = getMiddle(head);
-        ListNode* rightHead = reverseList(mid->next);
-        ListNode* temp = head;
-
-        while (rightHead!=NULL){
-            if (temp->val != rightHead->val) return false;
-            temp = temp->next , rightHead =  rightHead->next;
+        ListNode* shead = reverse(mid);
+        Print(head);
+        Print(shead);
+        while (shead){
+            if (head->val != shead->val) return false;
+            else{
+                head = head->next;
+                shead = shead->next;
+            }
         }
-
         return true;
     }
 };
