@@ -495,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0295-find-median-from-data-stream) |
@@ -831,6 +832,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0283-move-zeroes) |
@@ -933,6 +935,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0146-lru-cache](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0816-design-hashset](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0816-design-hashset) |
@@ -1080,6 +1083,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0053-maximum-subarray](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0148-sort-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0169-majority-element) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
@@ -1195,6 +1199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Merge Sort
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0148-sort-list) |
 | [0493-reverse-pairs](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/Ausaf-10/MyLeetCodeSolutions/tree/master/0948-sort-an-array) |
 ## Bucket Sort
